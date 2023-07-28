@@ -1,0 +1,311 @@
+body {
+    font-family: 'Inter';
+    margin: 0;
+
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10% ;
+    margin-top: 3.5rem;  
+}
+
+nav a{
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-decoration: none;
+    color: #171515;
+    font-size: 1.59525rem;
+}
+
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.middle .website{
+text-align: center;
+font-size: 1.6rem; 
+} 
+
+.middle .title{
+    text-align: center;
+    font-size: 1.7rem;
+    } 
+
+.topright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+.topright a{
+    font-size: 1.9rem; 
+}
+
+.topright .hamburger-img {
+    display: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10% ;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 6rem ;
+    align-items: center;
+    gap: rem;
+    align-self: stretch;
+    
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 34.3rem;
+}
+
+
+.main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem; 
+}
+
+h4{
+    font-family: Inter;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+p{
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 155%;
+    color: #6A6E77;
+}
+
+.text-intro{
+    width: 27rem;
+}
+
+.image-container img{
+    transform: rotate(-90deg);
+    width: 23.125rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-left: 9rem;
+    margin-right: 9rem ;
+    padding-top: 3rem;
+ }
+
+.project-sections{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 9rem;
+    margin-right: 9rem ;
+    gap: 3rem;
+    
+}
+
+.left-images{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    
+}
+.right-images{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+   
+   }
+
+.right-images img{
+   width: 27.34306rem;
+}
+
+footer{
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;  
+    background-color: #171515;
+}
+
+footer a{
+    display: block;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.59525rem;
+}
+
+.bottomleft img{
+    margin-left: 12rem;
+
+}
+
+.bottomright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-right: 20rem;      
+}
+
+.bottomright a{
+
+    font-size: 2.2705rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+
+@media screen and (max-width: 1500px) {
+    .middle{
+    display: none;
+    }
+    .image-container img{
+        transform: rotate(-90deg);
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 1086px) {
+
+    .content-container{
+        width: 25rem;
+    }
+    .image-container img{
+        transform: rotate(-90deg);
+        width: 16rem;
+    }
+    .content-container h4{
+        font-size: 2.5rem;
+        font-weight: 500;
+}
+
+    .text-intro p{
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 155%;
+        color: #6A6E77;
+    }
+
+    .text-intro{
+        width: 20rem;
+    }
+
+
+}
+
+@media screen and (max-width: 820px) {
+
+    .content-container{
+    justify-content: left;
+    }
+
+    .image-container img{
+        transform: rotate(-90deg);
+        width: 10rem;
+    }
+   
+    .text-intro p{
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 155%;
+        color: #6A6E77;
+    }
+
+    .text-intro{
+        width: 20rem;
+    }
+
+    .topright a{
+        font-size: 1.7rem; 
+    }
+
+    .topleft img{
+        content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/2161fe01d93811401d7e77fce33ed3d34d48c902/Symbol_Logo_Black.svg')
+        }
+
+        .topright .hamburger-img {
+            display: inline-block;
+        }
+        .topright a{
+            display: none;
+        }
+        .topleft img{
+            width: 90%;
+            }
+}
+
+    @media screen and (max-width: 420px) {
+       
+        .topleft img{
+        width: 80%;
+        }
+
+        .content-container{
+            width: 20rem;
+        }
+
+        .content-container h4{
+            font-size: 2rem;
+            font-weight: 500;
+    }
+    
+        .text-intro p{
+            font-size: 0.9rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 155%;
+            color: #6A6E77;
+        }
+    
+        .text-intro{
+            width: 16rem;
+        }
+    
+        .main-title img{
+            width:70%;
+        }
+
+     
+    }
