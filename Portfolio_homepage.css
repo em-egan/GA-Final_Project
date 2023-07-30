@@ -107,7 +107,6 @@ p{
 }
 
 .image-container img{
-    transform: rotate(-90deg);
     width: 23.125rem;
     padding-right: 2rem;
 }
@@ -199,12 +198,17 @@ footer a{
     width: 90%;
     }
 
+html {
+    cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/cfdffa45ebc6e2106dbd0f5b386f415eadd392e7/cursor_hand_custom.svg'), auto;
+    cur
+    }
+
+ 
 @media screen and (max-width: 1500px) {
     .middle{
     display: none;
     }
     .image-container img{
-        transform: rotate(-90deg);
         width: 20rem;
     }
 }
@@ -212,7 +216,6 @@ footer a{
 @media screen and (max-width: 1126px) {
 
     .image-container img{
-        transform: rotate(-90deg);
         width: 18rem;
     }
 
@@ -226,7 +229,6 @@ footer a{
 
     }
     .image-container img{
-        transform: rotate(-90deg);
         width: 16rem;
     }
     .content-container h4{
@@ -257,7 +259,6 @@ footer a{
 @media screen and (max-width: 859px) {
 
 .image-container img{
-    transform: rotate(-90deg);
     width: 12rem;
 }
 
@@ -312,7 +313,6 @@ footer{
 @media screen and (max-width: 779px) {
 
     .image-container img{
-        transform: rotate(-90deg);
         width: 10rem;
     }
 
@@ -330,7 +330,6 @@ footer{
     }
 
     .image-container img{
-        transform: rotate(-90deg);
         width: 14rem;
         padding: 0px
 
