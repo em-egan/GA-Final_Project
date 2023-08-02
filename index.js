@@ -1,6 +1,6 @@
 const uxImage = document.querySelector('.UX-Design');
 const mvImage = document.querySelector('.Museums-Victoria');
-// const cursorCustom = document.body.style;
+// const cursorCustom = document.body.style.cursor;
 
 const originalSrcUx = uxImage.src;
 const originalSrcMv = mvImage.src;
@@ -36,10 +36,11 @@ mvImage.addEventListener('mouseout', revertImageOnMouseOutMv);
 
 
 // function changeCursorOnClick() {
-//     cursorCustom.cursor = `url(${newImageCursor}), auto`;
-//     setTimeout(function () {
-//         cursorCustom.cursor = originalCursorStyle;
+//     document.body.style.cursor = `url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/411dbde88354ea071d3dd3fdeb09cc799f77c316/cursor_hand_click.svg'), auto`;
+
+//     setTimeout(function() {
+//         document.body.style.cursor = originalCursorStyle;
 //     }, 1000);
 // }
-
+ 
 // cursorCustom.addEventListener('click', changeCursorOnClick);
