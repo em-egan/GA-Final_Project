@@ -126,18 +126,42 @@ h1, h2, h3, h4, h5, h6 {
 .projects-grid{
     display: grid;
     width: 59rem;
-    grid-template-columns: 1fr 1fr ;
     column-gap: 3rem;
     row-gap: 3rem;
     padding-top: 3rem;
     margin: auto;
+    grid-template-areas: 
+    "one three"
+    "one  three"
+    "two  three"
+    "two  none"
+    "two  none"
+    ;
+    grid-template-rows: repeat(5,150px);
+    grid-template-columns: 1fr 1fr;
+}
+
+#projectOne{
+    grid-area: one;
+}
+
+#projectTwo{
+    grid-area: two;
+}
+
+#projectThree{
+    grid-area: three;
 }
 
 .projects-grid img{
     object-fit: cover;
     width: 100%;
+    vertical-align: top; 
     
 }
+
+
+
 
 .projects-item{
     position: relative;
@@ -226,6 +250,10 @@ html {
     .image-container img{
         width: 18rem;
     }
+    .projects-grid{
+        width: 54rem;
+
+}
 
 }
 
