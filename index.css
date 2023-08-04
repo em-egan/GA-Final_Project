@@ -549,6 +549,13 @@ h5{
     
     }
 
+    .project-button {
+        width: 12%;
+        top: 1rem;
+        right: 1rem;
+
+    }
+
     }
 
     @media screen and (max-width: 385px) {
@@ -561,12 +568,7 @@ h5{
         margin-top: 3rem;  
     }
 
-    .project-button {
-        width: 12%;
-        top: 1rem;
-        right: 1rem;
-
-    }
+    
 
     
 }
