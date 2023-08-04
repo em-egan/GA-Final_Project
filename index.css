@@ -575,11 +575,14 @@ h5{
         margin-top: 3rem;  
     }
 
-    
-
-    
 }
 
+@media screen and (max-width: 370px) {
+
+    h5{
+        font-size: 1.3rem;
+    }
+}
 
     @media screen and (max-width: 346px) {
 
@@ -587,6 +590,4 @@ h5{
             font-size: 1.7rem;
             font-weight: 500;
     }
-
-
-    }
+}
