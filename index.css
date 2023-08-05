@@ -1,3 +1,41 @@
+.UX-Design {
+    /* content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/e812461c302b6f68df6c8a7a98869019bed066de/2%20Project%20images/MV-mock-up-no-hover.svg');  */
+    transition: 3s ease-out;
+}
+
+.UX-Design:hover {
+    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/59577852c6b4f1faad77bc262253312aa1819d4f/UX_link_hover.svg');
+}
+
+.museums-victoria {
+    /* content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/e812461c302b6f68df6c8a7a98869019bed066de/2%20Project%20images/MV-mock-up-no-hover.svg');  */
+    transition: 3s ease-out;
+}
+  
+.museums-victoria:hover {
+    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/d9df88206bac8ee9a9fe36f61f45b48e614311e6/2%20Project%20images/MV-mock-up-hover.svg');
+
+}
+  
+.homgo {
+    /* content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/e812461c302b6f68df6c8a7a98869019bed066de/2%20Project%20images/MV-mock-up-no-hover.svg');  */
+    transition: 3s ease-out;
+}
+  
+.homgo:hover {
+    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/d9df88206bac8ee9a9fe36f61f45b48e614311e6/2%20Project%20images/MV-mock-up-hover.svg');
+}
+
+.snapserve {
+    /* content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/e812461c302b6f68df6c8a7a98869019bed066de/2%20Project%20images/MV-mock-up-no-hover.svg');  */
+    transition: 3s ease-out;
+}
+  
+.snapserve:hover {
+    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/d9df88206bac8ee9a9fe36f61f45b48e614311e6/2%20Project%20images/MV-mock-up-hover.svg');
+}
+
+
 body {
     font-family: 'Inter';
     margin: 0px;
