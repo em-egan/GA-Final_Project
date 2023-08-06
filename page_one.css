@@ -403,8 +403,57 @@ line-height: 139.523%
     flex-wrap: wrap;
 }
 
+.project-section-background{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+
+}
+.categorie-grey-background{
+    height: 14.4375rem;
+    background-color: #F4F4F4;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    left: 0; 
+    right: 0;
+}
+
+.categorie-section-title h6{
+    color: #000;
+    font-family: Inter;
+    font-size: 3.5785rem;
+    font-weight: 300;
+
+}
 
 
+.mv-intro{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4.1875rem;
+}
+
+.mv-about{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.9375rem;
+    flex: 1 0 0;
+}
+
+.mv-about-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8125rem;
+    flex: 1 0 0;
+}
+
+.stroke-two{
+    height: 10.1875rem;
+    border: 0.575px solid rgba(23, 21, 21, 0.20); 
+}
 
 footer{
     height: 25rem;
