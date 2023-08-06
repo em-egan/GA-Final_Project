@@ -4,7 +4,7 @@
 }
 
 .UX-Design:hover {
-    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/3d8939c3ae3bd8ededd0111a19d5627f0fb1218d/3%20UI%20Elements/buttons/Ux%20Designer%20link/ux-designer-hover.svg');
+    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/59577852c6b4f1faad77bc262253312aa1819d4f/UX_link_hover.svg');
 }
 
 .museums-victoria {
@@ -86,7 +86,7 @@ nav a{
 
 .topright a{
     font-size: 1.9rem; 
-    font-weight: 450;
+    font-weight: 400;
 }
 
 .topright .hamburger-img {
@@ -170,7 +170,7 @@ main{
 h4{
     font-family: Inter;
     font-size: 3.5rem;
-    font-weight: 500;
+    font-weight: 450;
 }
 
 h5{
