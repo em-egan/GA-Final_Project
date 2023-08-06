@@ -1,4 +1,19 @@
 
+.page-centered{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sections-justified{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 h1{
     font-family: Inter;
     font-size: 2.6rem;
@@ -151,15 +166,15 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 14%;
-    margin-right: 14% ;
     padding-top: 6rem;
 }
 
 .main-container{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 3.75rem;
+    width: 74,4rem;
 }
 
 .main-image-left{
@@ -198,7 +213,7 @@ main{
 }
 
 .mobile-first:hover {
-    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/3d8939c3ae3bd8ededd0111a19d5627f0fb1218d/3%20UI%20Elements/buttons/Ux%20Designer%20link/mobile-first-hover.svg');
+    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/c50d08e8ce38a56066f6d4a27e4971b4458f5452/3%20UI%20Elements/buttons/Ux%20Designer%20link/mobile-first-hover.svg');
 }
 
 .ux-categories{
@@ -242,7 +257,18 @@ main{
 
 }
 
+.section-one-page{
+    display: flex;
+    padding-top: 6rem;
+}
 
+
+.section-one{
+    display: flex;
+    width: 70.1875rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 
 .left-section-one{
     display: inline-flex;
@@ -376,6 +402,7 @@ line-height: 139.523%
     flex-shrink: 0;
     flex-wrap: wrap;
 }
+
 
 
 
