@@ -1,0 +1,446 @@
+main{
+    display: inline-flex;
+    align-items: center;
+    gap: 3.75rem;
+    margin-left: 12%;
+    margin-right: 12% ;
+    padding-top: 6rem;
+}
+
+.main-image-left{
+   width: 36.8125rem;
+   align-self: stretch;
+   background: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/b48542f1aa1f53da1b0032445c4bcfb5b4b22c54/2%20Project%20images/Page_one_MV-main%20picture3.svg'), lightgray 50% / cover no-repeat;
+}
+
+
+.main-content-right{
+    display: flex;
+    width: 33.8125rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.8125rem;
+}
+
+.main-content-top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.3125rem;
+    align-self: stretch;
+}
+
+.main-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.3125rem;
+    align-self: stretch;
+}
+
+.mobile-first {
+    transition: 3s ease-out;
+}
+
+.mobile-first:hover {
+    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/3d8939c3ae3bd8ededd0111a19d5627f0fb1218d/3%20UI%20Elements/buttons/Ux%20Designer%20link/mobile-first-hover.svg');
+}
+
+.ux-categories{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 0.77281rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.category-button{
+    display: flex;
+    padding: 0.38644rem 1.26963rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.552rem;
+    border-radius: 2.76013rem;
+    background: #E8E8E8;
+}
+
+.main-content-bottom{
+    display: flex;
+    padding-right: 0px;
+    align-items: flex-start;
+    gap: 1.9375rem;
+    align-self: stretch;
+}
+
+.stroke{
+    height: 10.1875rem;
+    border: 0.575px solid rgba(23, 21, 21, 0.20); 
+}
+
+.main-content-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8125rem;
+    width: 26rem;
+
+}
+
+
+h1{
+    font-family: Inter;
+    font-size: 2.6rem;
+    font-weight: 500;
+    align-self: stretch;
+}
+
+h2{
+    
+color: #171515;
+font-family: Inter;
+font-size: 1.375rem;
+font-weight: 400;
+line-height: 140.523%;
+    
+}
+
+
+h4{
+    font-family: Inter;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+h5{
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p{
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 155%;
+    color: #6A6E77;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+body {
+    font-family: 'Inter';
+    margin: 0px;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10% ;
+    margin-top: 3.5rem;  
+}
+
+nav a{
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-decoration: none;
+    color: #171515;
+    font-size: 1.59525rem;
+}
+
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.middle .website{
+    text-align: center;
+    font-size: 1.6rem; 
+} 
+
+.middle .title{
+    text-align: center;
+    font-size: 1.7rem;
+} 
+
+.topright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+}
+
+.topright a{
+    font-size: 1.9rem; 
+    font-weight: 450;
+}
+
+.topright .hamburger-img {
+    display: none;
+}
+
+#menu{
+    background-color: #171515;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    overflow-y: scroll;
+    padding: 15px 30px;
+    position: fixed;
+    transition: all 0.35s ease-in-out;
+    transform: translateX(100%);
+    z-index: 10;
+}
+
+#menu.toggle-open {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+#menu a, #menu a:focus, #menu a:visited {
+    color:  #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 2rem;
+    margin: 25px auto;
+    text-decoration: none;
+}
+
+.menu-links {
+    padding-top: 7rem;
+    padding-right: 2.5rem;
+    width: auto;
+}
+
+#menu-close {
+    position: absolute;
+    top: 4rem;
+    right: 4rem; 
+}
+
+#menu-close img{
+    width: 1.7rem;
+}
+
+
+
+footer{
+    height: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;  
+    background-color: #171515;
+}
+
+.bottomleft{
+    margin-left: 10%;
+    margin-right: 10% ;
+}
+
+footer a{
+    display: block;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bottomright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-right: 20%;      
+}
+
+.bottomright a{
+    font-size: 1.9rem; 
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+.bottomleft img{
+    width: 90%;
+}
+
+html {
+    cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/f90284fca1ae97f0799d4c12c26e14bfb71a758a/1%20Cursor/cursor_straight.svg'), auto;
+    }
+
+@media screen and (max-width: 1570px) {
+    
+    .middle{
+    display: none;
+    }
+
+}
+@media screen and (max-width: 1126px) {
+
+
+}
+
+@media screen and (max-width: 1086px) {
+
+
+
+    h5{
+        font-size: 1.5rem;
+    }
+
+  
+    .bottomright a{
+        font-size: 1.7rem; 
+        font-weight: 400;
+        font-style: normal;
+        line-height: normal;
+    }
+
+}
+@media screen and (max-width: 859px) {
+
+ 
+
+    h5{
+        font-size: 1.3rem;
+    }
+
+ 
+    footer{
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+
+    .topright a{
+        font-size: 1.7rem; 
+    }
+
+    .topleft img{
+        content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/f90284fca1ae97f0799d4c12c26e14bfb71a758a/5%20Logo/Symbol_Logo_Black.svg')
+    }
+
+    .topright .hamburger-img {
+        display: inline-block;
+    }
+    .topright a{
+        display: none;
+    }
+    .topleft img{
+        width: 90%;
+        }
+
+    .bottomleft img{
+        width: 60%;
+        }
+}
+
+@media screen and (max-width: 779px) {
+
+
+}
+
+@media screen and (max-width: 740px) {
+
+   
+h5{
+    font-size: 2rem;
+}
+
+}
+
+
+@media screen and (max-width: 540px) {
+
+ 
+
+    h5{
+    font-size: 1.5rem;
+    }
+
+
+    .bottomright a{
+    font-size: 1.4rem; 
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .topleft img{
+    width: 80%;
+    }
+
+    footer{
+        height: 15rem;
+    }
+
+    .bottomright{
+        gap: 1.6rem;
+    }
+
+
+}
+
+@media screen and (max-width: 443px) {
+
+    .topleft img{
+        width: 70%;
+    }
+ 
+
+}
+@media screen and (max-width: 420px) {
+    
+    .topleft img{
+    width: 60%;
+    }
+
+
+    
+    h5{
+        font-size: 1.45rem;
+    }
+    
+
+}
+
+    @media screen and (max-width: 385px) {
+
+
+    nav {
+        margin-top: 3rem;  
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+    h5{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 346px) {
+
+}
