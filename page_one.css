@@ -327,6 +327,10 @@ font-weight: 400;
 line-height: 139.523%
 }
 
+.menu-title a{
+text-decoration: none;
+color: #171515;
+}
 .menu-subtitle ul{
     list-style-type: none;
     margin: 0; 
@@ -413,6 +417,53 @@ line-height: 139.523%
     flex-wrap: wrap;
 }
 
+.interactive-menu{
+    display: flex;
+    width: 3rem;
+    padding: 1.18975rem 0.70838rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; 
+    border-radius: 0.70838rem;
+    background: #1E1E1E;
+    position: fixed;
+    top: 50%; 
+    right: 4%; 
+    transform: translateX(-50%);
+
+}
+
+.background-aside img{
+    width: 2.6rem;
+}
+
+.empathize-aside img{
+    width: 2rem;
+}
+
+.define-aside img{
+    width: 2.4rem;
+}
+
+.ideate-aside img{
+    width: 2.6rem;
+}
+
+.prototype-aside img{
+    width: 2.4rem;
+}
+
+.test-aside img{
+    width: 2.4rem;
+}
+
+#background{
+    min-height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
 .project-section-background{
     display: inline-flex;
     justify-content: center;
