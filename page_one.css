@@ -464,13 +464,24 @@ color: #171515;
 html{
     scroll-behavior: smooth;
 }
+
+.section-two-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
 .project-section-background{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     padding-top: 10rem;
+    padding-bottom: 10rem;
 
 }
+
 .categorie-grey-background{
     height: 14.4375rem;
     background-color: #F4F4F4;
@@ -490,17 +501,39 @@ html{
 }
 
 
-.mv-intro{
+
+
+.type-one{
     display: inline-flex;
     align-items: flex-start;
     gap: 4.1875rem;
 }
 
-.mv-about{
+.type-three{
     display: flex;
     align-items: flex-start;
     gap: 1.9375rem;
     flex: 1 0 0;
+}
+
+.mv-about{
+    width: 30rem;
+}
+
+.main-problem-right-text{
+    width: 24rem;
+}
+
+.target-users-right-text{
+    width: 24rem;
+}
+
+.necessity-solving-right-text{
+    width: 24rem;
+}
+
+.improving-user-lives-right-text{
+width: 24rem;
 }
 
 .mv-about-description{
@@ -514,6 +547,17 @@ html{
 .stroke-two{
     height: 10.1875rem;
     border: 0.575px solid rgba(23, 21, 21, 0.20); 
+}
+
+.mv-background-middle{
+    display: flex;
+    width: 72.0625rem;
+    height: 41.5625rem;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 9.25rem;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 footer{
