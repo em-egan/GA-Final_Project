@@ -1,3 +1,7 @@
+html {
+    cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/f90284fca1ae97f0799d4c12c26e14bfb71a758a/1%20Cursor/cursor_straight.svg'), auto;
+}
+
 .UX-Design {
     /* content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/e812461c302b6f68df6c8a7a98869019bed066de/2%20Project%20images/MV-mock-up-no-hover.svg');  */
     transition: 3s ease-out;
@@ -310,9 +314,6 @@ footer a{
     width: 90%;
 }
 
-html {
-    cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/f90284fca1ae97f0799d4c12c26e14bfb71a758a/1%20Cursor/cursor_straight.svg'), auto;
-    }
 
 @media screen and (max-width: 1570px) {
     
