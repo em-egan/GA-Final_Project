@@ -500,9 +500,6 @@ html{
 
 }
 
-
-
-
 .type-one{
     display: inline-flex;
     align-items: flex-start;
@@ -551,8 +548,7 @@ width: 24rem;
 
 .mv-background-middle{
     display: flex;
-    width: 72.0625rem;
-    height: 41.5625rem;
+    width: 72rem;
     align-items: flex-start;
     align-content: flex-start;
     gap: 9.25rem;
