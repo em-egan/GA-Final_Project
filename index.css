@@ -2,6 +2,10 @@ html {
     cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/9d4ac453066aac16f6e582cc2341fc67bf440f28/1%20Cursor/cursor_normal.svg'), auto;
 }
 
+a{
+    cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/1eb127cc827b6e0130e3d0072d58649533f76e18/1%20Cursor/cursor_hover.svg'), auto; 
+}
+
 .UX-Design {
     /* content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/e812461c302b6f68df6c8a7a98869019bed066de/2%20Project%20images/MV-mock-up-no-hover.svg');  */
     transition: 3s ease-out;
