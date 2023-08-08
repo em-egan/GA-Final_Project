@@ -1,5 +1,5 @@
 function changeCursorOnClick() {
-    document.body.style.cursor = `url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/9f611958b5ef23d2efb45f8394f366aaeee6a46f/1%20Cursor/cursor_hand_custom.svg'), auto`;
+    document.body.style.cursor = `https://raw.githubusercontent.com/em-egan/GA-Final_Project/2303b4bc5645f8a08362f3dd5d0d2738b5d4a856/1%20Cursor/cursor-clicked.svg'), auto`;
 
     setTimeout(function() {
         document.body.style.cursor = originalCursorStyle;
@@ -14,11 +14,11 @@ const mvImage = document.querySelector('.museums-victoria');
 
 const originalSrcUx = uxImage.src;
 const originalSrcMv = mvImage.src;
-const originalCursorStyle = "url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/9f611958b5ef23d2efb45f8394f366aaeee6a46f/1%20Cursor/cursor_hand_custom.svg'), auto";
+const originalCursorStyle = "url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/2303b4bc5645f8a08362f3dd5d0d2738b5d4a856/1%20Cursor/cursor-normal.svg'), auto";
 
 const newImageUx = "https://raw.githubusercontent.com/em-egan/GA-Final_Project/59577852c6b4f1faad77bc262253312aa1819d4f/UX_link_hover.svg"
 const newImageSrcMv = "https://raw.githubusercontent.com/em-egan/GA-Final_Project/d9df88206bac8ee9a9fe36f61f45b48e614311e6/2%20Project%20images/MV-mock-up-hover.svg"
-const newImageCursor = "https://raw.githubusercontent.com/em-egan/GA-Final_Project/9f611958b5ef23d2efb45f8394f366aaeee6a46f/1%20Cursor/cursor_hand_click.svg"
+const newImageCursor = "https://raw.githubusercontent.com/em-egan/GA-Final_Project/5f3fd9cce42c16b72ade76e7c3d3ca3a80100096/1%20Cursor/cursor_clicking_state.svg"
 
 
 function changeImageOnHoverUx() {
