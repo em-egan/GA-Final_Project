@@ -1,10 +1,13 @@
+html {
+    cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/5f3fd9cce42c16b72ade76e7c3d3ca3a80100096/1%20Cursor/cursor_normal_state.svg'), auto;
+}
+
 @font-face {
     font-family: 'wulkan_displaylight_italic';
     src: url('https://github.com/em-egan/GA-Final_Project/blob/efd3ddb42cc9132a58d9c1bd0eaa8eee5dae958d/5%20Logo/wulkandisplaylightitalic-webfont.woff2') format('woff2'),
          url('https://github.com/em-egan/GA-Final_Project/blob/efd3ddb42cc9132a58d9c1bd0eaa8eee5dae958d/5%20Logo/wulkandisplaylightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 .page-centered{
     display: flex;
