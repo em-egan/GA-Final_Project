@@ -280,6 +280,7 @@ main{
 .section-one-page{
     display: flex;
     padding-top: 6rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -430,21 +431,90 @@ color: #171515;
     flex-wrap: wrap;
 }
 
+.interactive-menu-together{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    top: 50%; 
+    right: 4%; 
+    transform: translateX(-50%);
+    position: fixed;
+}
+
+
+
+.interactive-menu-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5em;
+    height: 19.4rem;
+    padding-top: 1rem;
+}
+
+.interactive-menu-text-area{
+    height: 2.5rem;
+    padding: 0.625rem;
+    align-items: center;
+    gap: 0.625rem;
+    background: #1E1E1E; 
+}
+
+#interactive-background{
+    visibility: hidden; 
+}
+
+#interactive-empathize{
+    visibility: hidden; 
+}
+
+#interactive-define{
+    visibility: hidden; 
+}
+
+#interactive-ideate{
+    visibility: hidden; 
+}
+
+#interactive-prototype{
+    visibility: hidden; 
+}
+
+#interactive-test{
+    visibility: hidden; 
+}
+
+/* #interactive-test:hover{
+    visibility: visible; 
+} */
+.interactive-menu-text-area a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+
 .interactive-menu{
     display: flex;
-    width: 3rem;
-    padding: 1.18975rem 0.70838rem;
+    width: 4rem;
+    padding: 1.18975rem 0rem;
     flex-direction: column;
     align-items: center;
     gap: 1rem; 
     border-radius: 0.70838rem;
     background: #1E1E1E;
-    position: fixed;
-    top: 50%; 
-    right: 4%; 
-    transform: translateX(-50%);
-
 }
+
+.background-aside{
+width: 100%
+}
+
 
 .background-aside img{
     width: 2.6rem;
@@ -491,9 +561,13 @@ html{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
+}
+
+.mv-intro{
+padding-top: 6rem
 }
 
 .categorie-grey-background, .categorie-grey-empathize{
@@ -677,6 +751,7 @@ width: 24rem;
     justify-content: center;
     align-items: center;
     padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 
 .disparity-right-text p{
@@ -693,7 +768,6 @@ width: 24rem;
     width: 100%;
     border-bottom: 1.5px solid #171515;
     height: 4.3rem;
-    padding-top: 7rem;
 }
 
 .middle-title h3{
@@ -727,13 +801,17 @@ line-height: normal;
     line-height: normal;
     letter-spacing: 0.07363rem;
     text-transform: uppercase;
-    
-    cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/9d4ac453066aac16f6e582cc2341fc67bf440f28/1%20Cursor/cursor_normal.svg'), auto;
+    cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/1eb127cc827b6e0130e3d0072d58649533f76e18/1%20Cursor/cursor_hover.svg'), auto;
     border-width: 0px;
     border-style: none;
     border-color: buttonborder;
+    
 }
 
+.cta-blue:hover{
+    background: #0044cc;
+    
+}
 
 .evaluating-section a{
     text-decoration: none;
@@ -801,6 +879,10 @@ width: 24rem;
     padding-top: 5rem;
 }
 
+.ux-strategy-two{
+    padding-bottom: 3rem;
+}
+
 .user-centric-design,.usability-testing, .user-research, .website-navigation-system{
     gap: 2.8rem;
 }
@@ -823,7 +905,97 @@ width: 24rem;
 }
 
 
+.competitor-analysis, .contextual-interviews{
+    padding-top: 5rem
+}
 
+
+
+.button-style{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    gap: 1rem;
+    border-radius: 4.53231rem;
+    background: #1E1E1E;
+    height: 107px;
+
+}
+
+.button-elements{
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.3rem;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.button-interview-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 0.51213rem; */
+}
+
+.button-style p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 155.023%;
+    width: 16rem;
+    margin-block-end: 0em;
+    margin-block-start: 0.5em; 
+}
+
+.button-style{
+    cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/1eb127cc827b6e0130e3d0072d58649533f76e18/1%20Cursor/cursor_hover.svg'), auto;
+    
+}
+
+.space-between-button{
+    padding-top: 5rem;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.interview-buttons{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   align-items: flex-start;
+   justify-content: flex-start;
+   gap: 4rem;
+   padding-top: 0rem;
+}
+
+.evaluating-section img {
+   filter: grayscale(100%);
+   transition: all 1s ease;
+
+}
+
+.evaluating-section img:hover {
+    filter: grayscale(0%);
+}
+
+.affinity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
 footer{
     height: 25rem;
