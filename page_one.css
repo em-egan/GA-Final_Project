@@ -456,21 +456,34 @@ color: #171515;
 .interactive-menu-text-area{
     height: 2.5rem;
     padding: 0.625rem;
+    padding-left: rem;
     align-items: center;
     gap: 0.625rem;
     background: #1E1E1E; 
 }
 
-#interactive-background{
-    visibility: hidden; 
+#interactive-background, #interactive-empathize, #interactive-define, #interactive-ideate, #interactive-prototype,#interactive-test  {
+    visibility: hidden;
+    animation: roll 2s ease-out; 
+}
+
+@keyframes roll {
+    0% {
+      width:0;
+    }
+    100% {
+      width:100%;
+    }
 }
 
 #interactive-empathize{
     visibility: hidden; 
+    animation: roll 3s;
 }
 
 #interactive-define{
     visibility: hidden; 
+    animation: roll 3s;
 }
 
 #interactive-ideate{
@@ -485,9 +498,15 @@ color: #171515;
     visibility: hidden; 
 }
 
-/* #interactive-test:hover{
-    visibility: visible; 
-} */
+form button{
+    font-size: 1.5rem;
+    padding: 1rem;
+    animation: roll 3s infinite;
+  }
+
+ 
+
+
 .interactive-menu-text-area a{
     text-decoration: none;
     color: #FFF;
