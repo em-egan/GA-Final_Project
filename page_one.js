@@ -1,3 +1,20 @@
+//Cursor change
+
+function changeCursorOnClick() {
+  document.body.style.cursor = `url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/36558a5333a7d172fc0d1b52e1aaca0693fce0a0/1%20Cursor/cursor_clicked.svg'), auto`;
+
+  setTimeout(function() {
+      document.body.style.cursor = originalCursorStyle;
+  }, 200);
+}
+
+window.addEventListener('click', changeCursorOnClick);
+
+const originalCursorStyle = "url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/9d4ac453066aac16f6e582cc2341fc67bf440f28/1%20Cursor/cursor_normal.svg'), auto";
+
+
+//Hamburger menu
+
 document.querySelector('.hamburger-img').addEventListener('click', function(){
   document.getElementById('menu').classList.add('toggle-open');
 })
@@ -26,6 +43,7 @@ const testHidden = document.querySelector('#interactive-test');
 
 
 // background hover
+
 backgroundSelection.addEventListener('mouseover', function handleMouseOver() {
 backgroundHidden.style.visibility = 'visible';
 });
@@ -87,3 +105,27 @@ testHidden.style.visibility = 'visible';
 testSelection.addEventListener('mouseout', function handleMouseOut() {
 testHidden.style.visibility = 'hidden';
 });
+
+
+
+//reset animation
+
+element = document.getElementById("interactive-background");
+
+// reset the transition by...
+element.addEventListener("mouseout", function(e) {
+  e.preventDefault;
+  
+  // -> removing the class
+  element.classList.remove("background-aside");
+  
+  // -> triggering reflow /* The actual magic */
+  // without this it wouldn't work. Try uncommenting the line and the transition won't be retriggered.
+  // Oops! This won't work in strict mode. Thanks Felis Phasma!
+  // element.offsetWidth = element.offsetWidth;
+  // Do this instead:
+  void element.offsetWidth;
+  
+  // -> and re-adding the class
+  element.classList.add("background-aside");
+}, false);
