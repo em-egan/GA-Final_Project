@@ -1,5 +1,5 @@
 function changeCursorOnClick() {
-    document.body.style.cursor = `https://raw.githubusercontent.com/em-egan/GA-Final_Project/36558a5333a7d172fc0d1b52e1aaca0693fce0a0/1%20Cursor/cursor_clicked.svg'), auto`;
+    document.body.style.cursor = 'url(`https://raw.githubusercontent.com/em-egan/GA-Final_Project/36558a5333a7d172fc0d1b52e1aaca0693fce0a0/1%20Cursor/cursor_clicked.svg'), auto`;
 
     setTimeout(function() {
         document.body.style.cursor = originalCursorStyle;
