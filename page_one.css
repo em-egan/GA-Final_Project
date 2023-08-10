@@ -233,7 +233,7 @@ main{
 }
 
 .mobile-first:hover {
-    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/3d8939c3ae3bd8ededd0111a19d5627f0fb1218d/3%20UI%20Elements/buttons/Ux%20Designer%20link/mobile-first-hover.svg');
+    content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/5d9f4c92ac3194b42f53af23709bffff8d5309f9/3%20UI%20Elements/buttons/Ux%20Designer%20link/Mobile-First%20Design%20hover.svg');
 }
 
 .ux-categories{
@@ -440,6 +440,7 @@ color: #171515;
     right: 4%; 
     transform: translateX(-50%);
     position: fixed;
+    z-index: 10;
 }
 
 
@@ -456,23 +457,25 @@ color: #171515;
 .interactive-menu-text-area{
     height: 2.5rem;
     padding: 0.625rem;
-    padding-left: rem;
+    padding-left: 1rem;
     align-items: center;
     gap: 0.625rem;
-    background: #1E1E1E; 
+    background: #797979; 
 }
 
 #interactive-background, #interactive-empathize, #interactive-define, #interactive-ideate, #interactive-prototype,#interactive-test  {
     visibility: hidden;
-    animation: roll 2s ease-out; 
+    animation: roll 5s ease-out; 
 }
 
 @keyframes roll {
     0% {
-      width:0;
+      
+      opacity: 0.5;
     }
     100% {
-      width:100%;
+      
+      opacity: 1;
     }
 }
 
@@ -498,15 +501,7 @@ color: #171515;
     visibility: hidden; 
 }
 
-form button{
-    font-size: 1.5rem;
-    padding: 1rem;
-    animation: roll 3s infinite;
-  }
-
  
-
-
 .interactive-menu-text-area a{
     text-decoration: none;
     color: #FFF;
@@ -531,9 +526,10 @@ form button{
 }
 
 .background-aside{
-width: 100%
-}
+width: 100%;
 
+}
+ 
 
 .background-aside img{
     width: 2.6rem;
@@ -567,29 +563,28 @@ html{
     scroll-behavior: smooth;
 }
 
-.section-two-page, .section-three-page{
+.section-category-page{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    
+    padding-bottom: 5rem;
 }
 
-.project-section-background,.project-section-empathize {
+.project-section-type{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
-
 }
 
 .mv-intro{
-padding-top: 6rem
+    padding-top: 6rem
 }
 
-.categorie-grey-background, .categorie-grey-empathize{
+.categorie-grey{
     height: 14.4375rem;
     background-color: #F4F4F4;
     z-index: -1;
@@ -640,7 +635,7 @@ padding-top: 6rem
 }
 
 .improving-user-lives-right-text{
-width: 24rem;
+    width: 24rem;
 }
 
 .mv-about-description{
@@ -677,12 +672,21 @@ width: 24rem;
     align-items: center;
 }
 
+.background-main-image img{
+    transition: all 1s ease;
+}
+
+
+.background-main-image img:hover{
+    transform: scale(1.2) rotate(0deg);
+}
+
 .figures{
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: flex-start;
-    gap: 4.375rem;
+    gap: 3rem;
     /* flex-wrap: wrap; */
     padding-top: 2rem;
 }
@@ -759,6 +763,7 @@ width: 24rem;
     margin-block-end: 0em;
 
 }
+
 .top-figures h3{
     text-align: center;
 }
@@ -790,10 +795,10 @@ width: 24rem;
 }
 
 .middle-title h3{
-font-size: 2.1875rem;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
 .evaluating-section{
@@ -803,6 +808,15 @@ line-height: normal;
     padding-top: 4rem;
     padding-left: 2rem;
 }
+
+#competitor-image img{
+ width: 50rem;
+}
+
+#competitor-image{
+    gap: 4rem;
+}
+
 .cta-blue{
     display: inline-flex;
     height: 4.523rem;
@@ -824,11 +838,14 @@ line-height: normal;
     border-width: 0px;
     border-style: none;
     border-color: buttonborder;
+    transition: 0.5s ease;
+
     
 }
 
 .cta-blue:hover{
-    background: #0044cc;
+    background: #0b2ffd;
+    transform: scale(1.1) rotate(0deg);
     
 }
 
@@ -884,7 +901,7 @@ line-height: normal;
 }
 
 .increase-revenue-right-text{
-width: 24rem;
+    width: 24rem;
 }
 
 .ux-strategy-one, .ux-strategy-two{
@@ -923,12 +940,9 @@ width: 24rem;
 width: 24rem;
 }
 
-
 .competitor-analysis, .contextual-interviews{
     padding-top: 5rem
 }
-
-
 
 .button-style{
     display: flex;
@@ -941,8 +955,16 @@ width: 24rem;
     border-radius: 4.53231rem;
     background: #1E1E1E;
     height: 107px;
-
+    transition: 0.5s ease;
+    
 }
+
+.button-style:hover{
+    background: #105EFB;
+    transform: scale(1.2) rotate(0deg);
+}
+
+
 
 .button-elements{
     padding-right: 1.5rem;
@@ -985,7 +1007,7 @@ width: 24rem;
     justify-content: center;
     align-items: center;
     width: 100%;
-
+    padding-bottom: 2rem;
 }
 
 .interview-buttons{
@@ -998,14 +1020,45 @@ width: 24rem;
    padding-top: 0rem;
 }
 
-.evaluating-section img {
+
+.insights{
+    padding-left: 0;
+    padding-top: 4rem;
+}
+
+.evaluating-section img, .insights img {
    filter: grayscale(100%);
    transition: all 1s ease;
+}
 
+#usability-image img{
+    width: 47rem;
+}
+
+#usability-image{
+    padding-left: 2.5rem;
+    gap: 4rem;
 }
 
 .evaluating-section img:hover {
     filter: grayscale(0%);
+    transform: scale(1.1) rotate(0deg);
+}
+
+.insights img:hover {
+    filter: grayscale(0%);
+}
+
+
+.square{
+    filter: grayscale(100%);
+   transition: all 1s ease;
+}
+
+.square:hover{
+    filter: grayscale(0%);
+    transform: scale(1.5) rotate(0deg);
+    z-index: 10;
 }
 
 .affinity{
@@ -1015,6 +1068,92 @@ width: 24rem;
     justify-content: center;
     width: 100%;
 }
+
+.left-part-insights{
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 3rem;
+}
+
+.left-left-insight{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5625rem;
+}
+
+.left-right-insight img{
+    padding-bottom: 4rem;
+}
+
+.left-left-top-insight{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.post-it{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+
+.square{
+    display: flex;
+    width: 6.7285rem;
+    height: 5.98088rem;
+    padding: 0.95975rem 0.55988rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.79981rem;
+    background: #BCFFDF;
+    box-shadow: 0px 1.368924856185913px 1.368924856185913px 0px rgba(0, 0, 0, 0.25);
+}
+
+.square p{
+color: #505050;
+text-align: center;
+font-family: Inter;
+font-size: 0.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+letter-spacing: -0.00875rem;
+width: 6rem;
+}
+
+.left-left-bottom-insight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5625rem;
+    width: 21rem;
+}
+
+.left-left-bottom-insight .pov-title{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.023%; 
+    color: #1C1F25;
+}
+
+
+.left-left-bottom-insight .pov-text{
+    color: #6A6E77;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 177.523%;
+}
+
+.left-left-bottom-insight p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
 
 footer{
     height: 25rem;
@@ -1059,7 +1198,7 @@ footer a{
 
 
 @media screen and (max-width: 1570px) {
-    
+
     .middle{
     display: none;
     }
