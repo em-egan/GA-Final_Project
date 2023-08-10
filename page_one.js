@@ -108,24 +108,3 @@ testHidden.style.visibility = 'hidden';
 
 
 
-//reset animation
-
-element = document.getElementById("interactive-background");
-
-// reset the transition by...
-element.addEventListener("mouseout", function(e) {
-  e.preventDefault;
-  
-  // -> removing the class
-  element.classList.remove("background-aside");
-  
-  // -> triggering reflow /* The actual magic */
-  // without this it wouldn't work. Try uncommenting the line and the transition won't be retriggered.
-  // Oops! This won't work in strict mode. Thanks Felis Phasma!
-  // element.offsetWidth = element.offsetWidth;
-  // Do this instead:
-  void element.offsetWidth;
-  
-  // -> and re-adding the class
-  element.classList.add("background-aside");
-}, false);
