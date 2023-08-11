@@ -14,26 +14,14 @@ b {
 [class="left-section-one"] table.table td[class="td-info"]{
     padding-left:0rem;
     padding-right:0rem;
-    width: 200px;
-    
 }
 
 [class="left-section-one"] table.table td[class="td-info"]{
     width: 200px;
-    
 }
 
-[class="left-section-one"] table.table tr{
-    width: 220px;
-    
-}
-
-[class="left-section-one"] table.table td[class="toolbox"]{
-    border-bottom: none;
-}
 
 [class="left-section-one"] table {
-    border-collapse: collapse; 
     margin-bottom:0; 
 }     
 
