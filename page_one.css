@@ -391,10 +391,18 @@ text-decoration: none;
 color: #171515;
 }
 
+.menu-title a:hover{
+    color: #105EFB;
+}
+
 .menu-subtitle ul{
     list-style-type: none;
     margin: 0; 
     padding: 0;
+}
+
+.menu-subtitle a:hover{
+    color: #105EFB;
 }
 
 .menu-subtitle a{
@@ -619,8 +627,8 @@ html{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .mv-intro{
@@ -628,7 +636,7 @@ html{
 }
 
 .categorie-grey{
-    height: 14.4375rem;
+    height: 12rem;
     background-color: #F4F4F4;
     z-index: -1;
     position: absolute;
