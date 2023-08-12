@@ -6,6 +6,9 @@ a{
     cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/1eb127cc827b6e0130e3d0072d58649533f76e18/1%20Cursor/cursor_hover.svg'), auto; 
 }
 
+::selection {
+    background: #fffb0ce1;
+}
 
 .projects-item{
     overflow: hidden; 
