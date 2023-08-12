@@ -2,6 +2,10 @@ b {
     font-weight: bold;
 }
 
+::selection {
+    background: #fffb0ce1;
+}
+
 .center{
     display: flex;
     flex-direction: row;
@@ -403,7 +407,9 @@ color: #171515;
 
 .menu-subtitle a:hover{
     color: #105EFB;
+    font-weight:450;
 }
+
 
 .menu-subtitle a{
     font-family: Inter;
@@ -424,7 +430,7 @@ color: #171515;
 
 .menu-selection{
     display: flex;
-    width: 14.16375rem;
+    width: 15rem;
     height: 5.558rem;
     align-items: center;
 }
@@ -511,7 +517,8 @@ color: #171515;
     padding-left: 1rem;
     align-items: center;
     gap: 0.625rem;
-    background: #797979; 
+    background: #757574; 
+    border-radius: 4px 0px 0px 4px ;
 }
 
 #interactive-background, #interactive-empathize, #interactive-define, #interactive-ideate, #interactive-prototype,#interactive-test  {
