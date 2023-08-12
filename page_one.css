@@ -1,33 +1,6 @@
-///// Bootstrap fix
-
-*,
-*::before,
-*::after {
-  box-sizing: content-box;
-}
-
 b {
     font-weight: bold;
 }
-
-
-[class="left-section-one"] table.table td[class="td-info"]{
-    padding-left:0rem;
-    padding-right:0rem;
-}
-
-[class="left-section-one"] table.table td[class="td-info"]{
-    width: 200px;
-}
-
-
-[class="left-section-one"] table {
-    margin-bottom:0; 
-}     
-
-
-/////////////////
-
 
 .center{
     display: flex;
@@ -157,15 +130,15 @@ p{
     font-weight: 300;
     line-height: 155%;
     color: #6A6E77;
-    margin-bottom:0rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
+
 body {
     font-family: 'Inter';
-    
+    margin: 0px;
 }
   
 nav {
@@ -385,7 +358,10 @@ main{
     gap: 2rem;
 }
 
-
+table {
+    border-collapse: collapse;
+    margin: 0;  
+}     
 
 table tr{
     height: 2.7rem;
@@ -406,6 +382,7 @@ table tr{
     font-weight: 300;
     line-height: 155%;
     color: #000000;
+    width: 12rem;
     
 }
 
@@ -419,9 +396,6 @@ tr{
 .toolbox{
     border: none;
 }
-
-
-
 
 .menu-title{
 font-size: 0.89363rem;
@@ -902,7 +876,7 @@ html{
  width: 50rem;
 }
 
-#competitor-image{
+#competitor-image {
     gap: 4rem;
 }
 
@@ -1151,6 +1125,11 @@ width: 24rem;
    transition: all 1s ease;
 }
 
+.evaluating-section img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1) rotate(0deg);
+}
+
 #usability-image img{
     width: 47rem;
 }
@@ -1160,10 +1139,7 @@ width: 24rem;
     gap: 4rem;
 }
 
-.evaluating-section img:hover {
-    filter: grayscale(0%);
-    transform: scale(1.1) rotate(0deg);
-}
+
 
 .insights img:hover {
     filter: grayscale(0%);
@@ -1448,9 +1424,30 @@ width: 6rem;
     flex: 1 0 0;
 }
 
-       
-                
+.personas-images img{
+    width: 18rem;
+    filter: grayscale(100%);
+    transition: all 1s ease;
+}
 
+.personas-images{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.personas-images img:hover{
+    filter: grayscale(0%);
+    transform: scale(2.3) rotate(0deg);
+    z-index: 10;
+}
+ 
+
+#personas{
+    padding-left: 0;
+    gap: 2rem;
+}
 
 footer{
     height: 25rem;
@@ -1656,8 +1653,3 @@ h5{
 @media screen and (max-width: 346px) {
 
 }
-
-
-
-
-
