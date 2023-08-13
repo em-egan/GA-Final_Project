@@ -1712,6 +1712,10 @@ footer a{
 
 @media screen and (max-width: 1570px) {
 
+    #research{
+        margin-top: 3rem;
+    }
+
     .middle{
     display: none;
     }
@@ -1775,9 +1779,6 @@ footer a{
         padding-left: 9rem;
     }
 
-    .mv-logo-left img{
-        width: 15rem ;
-    }
 
     .mv-background-middle-one, .mv-background-middle-two{
     gap: 6rem;
@@ -1790,6 +1791,19 @@ footer a{
 
     .main-problem-right-text, .target-users-right-text, .necessity-solving-right-text, .improving-user-lives-right-text{
         width: 18rem;
+    }
+
+      #research img{
+        width: 10rem ;
+        padding-bottom: 1rem;
+    }
+
+    #research{
+        padding-top: 4rem;
+    }
+
+    .categorie-section-title h6{
+        font-size: 3rem;
     }
 
 }
@@ -1945,9 +1959,9 @@ footer a{
     }
 
     h1{
-       font-size: 2.2rem;
-
+       font-size: 3rem;
     }
+
     .main-content-description h2{
         font-size: 1.5rem;
         font-weight: 400;
@@ -1983,9 +1997,13 @@ footer a{
     }
 
     .section-one-page{
-        padding-top: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
         padding-left: 0rem;
-   
+    }
+
+    .left-section-one{
+        padding-top: ;
     }
 
     .section-one{
@@ -2016,6 +2034,11 @@ footer a{
 
     .necessity-solving-right-text h2{
         width: 15rem;
+    }
+
+    .left-section-one{
+        padding-bottom: 2rem;
+        padding-top: 1rem;
     }
 
 
@@ -2131,6 +2154,43 @@ footer a{
 }
 
 @media screen and (max-width: 779px) {
+    
+    .mv-intro{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .type-one img{
+        width: 2rem ;
+    }
+    
+    .type-one {
+        gap: 1rem;
+    }
+
+    .type-three{
+        gap:1rem;
+    }
+    
+    .categorie-section-title h6{
+        font-size: 2.2rem;
+    }
+
+    .categorie-grey{
+        height: 9rem;
+    }
+
+    #research img{
+        width: 12rem ;
+        padding-bottom: 1.5rem;
+    }
+
+    #research{
+        padding-top: 0rem;
+        
+    }
+
 
 }
 
@@ -2150,7 +2210,7 @@ h5{
 @media screen and (max-width: 600px) {
 
     h1{
-        font-size: 2.2rem;
+        font-size: 2.4rem;
         width: 28rem;
 }
     
