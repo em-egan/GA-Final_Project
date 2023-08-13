@@ -1,3 +1,4 @@
+
 b {
     font-weight: bold;
 }
@@ -339,7 +340,7 @@ main{
 
 .section-one{
     display: flex;
-    width: 70.1875rem;
+    width: 72rem;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -685,21 +686,10 @@ html{
     gap: 2.8rem;
 }
 
-.main-problem-right-text{
+.main-problem-right-text, .target-users-right-text, .necessity-solving-right-text, .improving-user-lives-right-text{
     width: 24rem;
 }
 
-.target-users-right-text{
-    width: 24rem;
-}
-
-.necessity-solving-right-text{
-    width: 24rem;
-}
-
-.improving-user-lives-right-text{
-    width: 24rem;
-}
 
 .mv-about-description{
     display: flex;
@@ -1753,8 +1743,57 @@ footer a{
         z-index: 10;
     }
 
+    .section-one-page{
+        padding-top: 0rem;
+        padding-left: 4rem;
+    }
+    
+    .section-one{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 5rem;
+        gap: 4rem;
+    }
+
+    .right-section-one{
+        padding-top: 4rem;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+    }
+
+    main{
+        padding-top: 4rem;
+        padding-left: 4rem;
+    }
+
+    .section-category-page{
+        padding-left: 9rem;
+    }
+
+    .mv-logo-left img{
+        width: 15rem ;
+    }
+
+    .mv-background-middle-one, .mv-background-middle-two{
+    gap: 6rem;
+    }
+
+    .main-problem img, .target-users img, .necessity-solving img, .improving-user-lives img{
+        width: 4rem ;
+    }
+    
+
+    .main-problem-right-text, .target-users-right-text, .necessity-solving-right-text, .improving-user-lives-right-text{
+        width: 18rem;
+    }
 
 }
+
 
 @media screen and (max-width: 1420px) {
     h1{
@@ -1792,11 +1831,24 @@ footer a{
         margin-left: 7rem;
     }
 
+    .section-one{
+        padding-left: 7rem;
+    }
+
+    .section-category-page{
+        padding-left: 11rem;
+    }
+
+    .mv-about p{
+        width: 30rem;
+    }
+
 
 }
 
 
 @media screen and (max-width: 1200px) {
+    
     .main-image-left{
         width: 30rem;
         margin-left: 10rem;
@@ -1806,6 +1858,18 @@ footer a{
         visibility: hidden;
     }
 
+    .section-one{
+        padding-left: 10rem;
+    }
+
+    .section-category-page{
+        padding-left: 14rem;
+    }
+
+    .categorie-section-title h6{
+        font-size: 2.8rem;
+    }
+
 
 }
 
@@ -1813,9 +1877,12 @@ footer a{
 @media screen and (max-width: 1180px) {
    
     .main-image-left{
-        width: 25rem;
-        height: 20;
-        margin-left: 10rem;
+        width: 28rem;
+        margin-left: 3rem;
+    }
+
+    .section-one{
+        margin-left: 3rem;
     }
 
     .main-content-description h2{
@@ -1826,8 +1893,19 @@ footer a{
     .main-container{
         gap: 2.5rem;
     }
+
+    .section-category-page{
+        padding-left: 17rem;
+    }
     
+    .main-image-left{
+        margin-left: 12rem;
+    }
+
+
 }
+
+
 
 
 @media screen and (max-width: 1100px) {
@@ -1857,6 +1935,7 @@ footer a{
         justify-content: center;
         align-items: center;
         padding-top: 3rem;
+        padding-left: 0;
     }
 
     .main-image-left{
@@ -1866,7 +1945,7 @@ footer a{
     }
 
     h1{
-       font-size: 2.3rem;
+       font-size: 2.2rem;
 
     }
     .main-content-description h2{
@@ -1895,6 +1974,50 @@ footer a{
     }
 
 
+    .main-container{
+        gap:1.8rem;
+    }
+
+    .section-one{
+        padding-left: 0rem;
+    }
+
+    .section-one-page{
+        padding-top: 2rem;
+        padding-left: 0rem;
+   
+    }
+
+    .section-one{
+        margin:0;
+    }
+
+    .right-section-one{
+        padding-top: 1rem;
+    }
+
+    .section-category-page{
+        padding-left: 0;
+    }
+
+    .mv-logo-left img{
+        width: 12rem ;
+    }
+
+    .mv-background-middle-one, .mv-background-middle-two{
+        gap: 2.8rem;
+        
+    }
+
+    .main-problem,.target-users, .necessity-solving, .improving-user-lives{
+        gap: 2rem;
+  
+    }
+
+    .necessity-solving-right-text h2{
+        width: 15rem;
+    }
+
 
 }
 
@@ -1903,7 +2026,6 @@ footer a{
     h5{
         font-size: 1.5rem;
     }
-
   
     .bottomright a{
         font-size: 1.7rem; 
@@ -1913,9 +2035,59 @@ footer a{
     }
 
 }
+
+@media screen and (max-width: 1016px) {
+
+    .mv-background-middle-one p, .mv-background-middle-two p{
+        width: 100%; 
+    }
+
+    .necessity-solving-right-text h2{
+        width: 30rem;
+    }
+
+    .section-category-page{
+        width: 100%;
+    }
+
+    .type-two{
+        width: 100%;
+    }
+
+    .type-three{
+        width: 100%;
+    }
+
+    .mv-background-middle-two{
+        padding-top: 3rem;
+    }
+
+    .mv-about p{
+        width: 100%;
+    }
+
+    .necessity-solving-right-text h2{
+        width: 100%;
+    }
+
+
+}
+
 @media screen and (max-width: 859px) {
 
- 
+    .menu-line-top, .menu-line-bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .left-section-one{
+        padding-top: 4rem;
+    }
+
+    .right-section-one{
+        padding-top: 4rem;
+    }
 
     h5{
         font-size: 1.3rem;
@@ -1951,20 +2123,22 @@ footer a{
     .bottomleft img{
         width: 60%;
         }
-}
 
-@media screen and (max-width: 779px) {
 
     .main-container{
         gap:1.8rem;
     }
 }
 
+@media screen and (max-width: 779px) {
+
+}
+
 @media screen and (max-width: 740px) {
 
    
 h5{
-    font-size: 2rem;
+    font-size: 1.9rem;
 }
 
 .main-container{
@@ -1984,14 +2158,29 @@ h5{
         gap: 1rem;
 }
 
+h1{
+    font-size: 1.8rem;
+    width: 25rem;
+}
+
+}
+
+@media screen and (max-width: 560px) {
+.right-section-one{
+    display: none;
+}
+
+.left-section-one{
+    padding-top: 0rem;
+}
+}
+
+
+
 }
 
 @media screen and (max-width: 540px) {
 
-    h1{
-        font-size: 1.8rem;
-        width: 25rem;
-}
 
     .main-container{
         gap:1.4rem;
@@ -2046,13 +2235,17 @@ h5{
         width: 20rem;
 }
 
-.main-content-description h2{
-    font-size: 1.1rem;
-}
+    .main-content-description h2{
+        font-size: 1.1rem;
+    }
 
-.main-titles img{
-    width: 15rem;
-}
+    .main-titles img{
+        width: 15rem;
+    }
+
+    .main-content-right{
+        gap: 2rem;
+    }
 
 }
 
