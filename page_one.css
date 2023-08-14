@@ -2403,9 +2403,6 @@ footer a{
         letter-spacing: 0.07363rem;
     }
 
-    .figures p{
-        width:;
-    }
 }
 
 @media screen and (max-width: 1040px) {
@@ -2413,6 +2410,7 @@ footer a{
     .mv-background-middle-one p, .mv-background-middle-two p{
         width: 100%; 
     }
+
 
     .necessity-solving-right-text h2{
         width: 30rem;
@@ -2646,11 +2644,14 @@ h5{
         width: 90%;
     }
 
-    .objectives-one, .objectives-two {
+    .objectives-one, .objectives-two, .ux-strategy-one, .ux-strategy-two {
         flex-direction: column;
         width: 100%; 
-        gap: 4rem;
+        gap: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 0rem;
     }
+
 
     .objectives-one p, .objectives-two p{
         width: 100%; 
@@ -2670,11 +2671,18 @@ h5{
         width: 100%;
     }
 
-    .objectives-two{
+    .section-category-page{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .title-section-usability{
         padding-top: 3rem;
     }
 
-
+    .section-one-page{
+        padding-bottom: 0rem
+    }
 
  }
 
