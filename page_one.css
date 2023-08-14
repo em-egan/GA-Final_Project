@@ -1,20 +1,18 @@
+
 .page-centered{
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.main-container{
-    width: 100%;
-    height: 100%;
-}
+
 
 main{
     width: 100%;
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 .main-image-left{
-    width: 100%;
+    width: 80%;
     margin-left: 0;
     padding-left: 0px;
 }
@@ -25,17 +23,12 @@ main{
     width: 100%;
 }
 
-.main-content-right{
-    width: 100%;
-}
+
 
 .main-content-description{
     width: 100%;
 }
 
-.main-content-description p{
-    width: 100%;
-}
 
 b {
     font-weight: bold;
@@ -114,6 +107,8 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 16%;
+    
 }
 
 .sections-justified{
@@ -121,6 +116,8 @@ a{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    width: 66%;
+    padding-left: 0rem;
 }
 
 h1{
@@ -128,6 +125,10 @@ h1{
     font-size: 2.6rem;
     font-weight: 500;
     align-self: stretch;
+}
+
+.main-titles h1{
+    width: 33rem;
 }
 
 h2{    
@@ -139,7 +140,7 @@ h2{
 }
 
 h3{
-    font-size: 1.82194rem;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -283,10 +284,12 @@ nav a{
     gap: 3.75rem;
     width: 100%;
     
+    
 }
 
 .main-image-left{
-   width: 36.8125rem;
+   width: 100%;
+   
    align-self: stretch;
    background: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/b48542f1aa1f53da1b0032445c4bcfb5b4b22c54/2%20Project%20images/Page_one_MV-main%20picture3.svg'), lightgray 50% / cover no-repeat;
    background-position: center center;
@@ -297,7 +300,7 @@ nav a{
 
 .main-content-right{
     display: flex;
-    width: 33.8125rem;
+    padding-right: 5rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 2.8125rem;
@@ -367,6 +370,11 @@ nav a{
     width: 26rem;
 
 }
+
+.main-content-description p{
+    margin-bottom: 0;
+}
+
 
 .section-one-page{
     display: flex;
@@ -756,11 +764,12 @@ html{
 
 .background-main-image{
     display: flex;
-    width: 100%;
+    width: 95%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
+
 
 .background-main-image img{
     transition: all 1s ease;
@@ -773,18 +782,22 @@ html{
 
 .figures{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
     gap: 3rem;
     padding-top: 2rem;
+    width: 90%;
 }
+
+
+
 
 
 .income{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.66613rem;
     width: 14rem;
 }
@@ -793,7 +806,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.66613rem;
     width: 14.3rem;
 }
@@ -811,11 +824,13 @@ html{
 }
 
 
+
+
 .ticketed-attendance{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.66613rem;
     width: 16.39663rem;
 }
@@ -824,7 +839,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.66613rem;
     width: 17.5rem;
 }
@@ -858,7 +873,7 @@ html{
 
 .conclusion{
     display: flex;
-    width: 100%;
+    width: 95%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1745,15 +1760,67 @@ footer a{
     padding-left: 10rem;
 }
 
+@media screen and (max-width: 2250px) {
+    .sections-justified{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .sections-justified{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+
+.sections-justified{
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 1660px) {
+
+.section-one{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    width: auto;
+}
+
+.right-section-one{
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+.main-content-right{
+    width: 100%;
+    padding-right: 0;
+}
+
+.main-image-left{
+    width: 100%;
+}
+
+.main-titles p{
+    width: 100%;
+
+}
+}
+
+@media screen and (max-width: 1610px) {
+.figures{
+    gap:1rem;
+    width: 90%;
+}
+
+}
+
 @media screen and (max-width: 1570px) {
     
-    .sections-justified{
-        padding-left: 5rem;
-    }
-
-    #research{
-        margin-top: 3rem;
-    }
 
     .middle{
         display: none;
@@ -1769,8 +1836,8 @@ footer a{
         font-size: 2.3rem;
     }
 
-    .main-content-description p{
-        width: 22rem;
+    .main-titles h1{
+        width: 100%;
     }
 
     .interactive-menu-together{
@@ -1786,17 +1853,10 @@ footer a{
         padding-left: 0rem;
     }
     
-    .section-one{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 4rem;
-        width: auto;
-    }
 
     .main-content-right{
-        width: 30rem;
+        width: 100%;
+        padding-right: 0;
     }
 
     .main-container{
@@ -1837,6 +1897,7 @@ footer a{
 
     #research{
         padding-top: 4rem;
+        margin-top: 3rem;
     }
 
     .categorie-section-title h6{
@@ -1847,21 +1908,27 @@ footer a{
         font-size: 1.4rem;
     }
 
+
     .figures p{
-        width: 10rem;
+        width: 80%;
+        margin: 0 auto;
     }
     
     .f-size{
-        width: 14rem;
-    }
-
-    .figures{
-        gap:1rem;
         width: 100%;
     }
 
-
 }
+
+
+
+@media screen and (max-width: 1491px) {
+    h1{
+        font-size: 2.2rem;
+        line-height: 130%; 
+    }
+}
+
 
 
 @media screen and (max-width: 1420px) {
@@ -1892,13 +1959,9 @@ footer a{
         z-index: 10;
     }
 
-    .sections-justified{
-        padding-left: 10rem;
-    }
-    
 
     .main-image-left {
-        width: 35rem;
+        width: 100%;
 
     }
 
@@ -1925,45 +1988,48 @@ footer a{
         width: 19rem;
     }
 
-    .figures{
-        flex-wrap: wrap;
-        width: 60rem;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
-    }
 
     .f-size{
-        width: 20rem;
+        width: 15rem;
+    }
+
+    .page-centered{
+        margin-left: 13%;
+
+    }
+
+    .mv-background-middle-one{
+        width: 100%;
+    }
+
+    .figures{
+        width: 90%;
+        justify-content: space-between;
+        padding-right: 5rem;
+
+    }
+
+}
+
+
+@media screen and (max-width: 1320px) {
+
+    .page-centered{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .background-main-image{
+        width: 100%;
     }
 
 
 }
 
 
-@media screen and (max-width: 1360px) {
-
-.main-image-left {
-    width: 32rem;
-
-}
-
-}
 
 @media screen and (max-width: 1300px) {
     
-    .main-image-left{
-        width: 27rem;
-        margin-left: 7rem;
-    }
-
-    .section-one{
-        padding-left: 7rem;
-    }
-
-    .section-category-page{
-        padding-left: 7rem;
-    }
 
     .mv-about p{
         width: 30rem;
@@ -1973,41 +2039,48 @@ footer a{
         width: 18rem;
     }
 
-    .background-main-image{
-        width: fit-content;
 
-    }
+}
 
-    .conclusion {
-        width: 100%;
+@media screen and (max-width: 1270px) {
 
-    }
+.interactive-menu-together{
+    visibility: hidden;
+}
+
+.main-problem-right-text p{
+    width: 100%;
+}
+
+.mv-background-middle-one, .mv-background-middle-two{
+    width: 100%;
+    gap: 5rem;
+
+}
+
+.target-users-right{
+    width: 100%;
+}
+
+.figures{
+    width: 100%;
+}
+
 
 }
 
 
+
+
 @media screen and (max-width: 1200px) {
     
-    .main-image-left{
-        width: 30rem;
-        margin-left: 10rem;
-    }
 
-    .interactive-menu-together{
-        visibility: hidden;
-    }
-
-    .section-one{
-        padding-left: 10rem;
-    }
-
-    .section-category-page{
-        padding-left: 10rem;
-    }
 
     .categorie-section-title h6{
         font-size: 2.8rem;
     }
+
+    
 
 
 }
@@ -2015,14 +2088,6 @@ footer a{
 
 @media screen and (max-width: 1180px) {
    
-    .main-image-left{
-        width: 28rem;
-        margin-left: 3rem;
-    }
-
-    .section-one{
-        margin-left: 3rem;
-    }
 
     .main-content-description h2{
         font-size: 1rem;
@@ -2031,16 +2096,17 @@ footer a{
 
     .main-container{
         gap: 2.5rem;
+        width: 100%;
     }
 
-    .section-category-page{
-        padding-left: 13rem;
-    }
-    
-    .main-image-left{
-        margin-left: 12rem;
-    }
 
+}
+
+@media screen and (max-width: 1136px) {
+
+    .figures h3{
+        font-size: 1.2rem;
+    }
 
 }
 
@@ -2053,10 +2119,10 @@ footer a{
         padding-left: 0rem;
     }
 
-    .page-centered{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+    /* .page-centered{
+        margin-left: 15%;
+        margin-right: 15%;
+    } */
 
     .sections-justified{
         width: 100%;
@@ -2190,7 +2256,24 @@ footer a{
         line-height: normal;
     }
 
-    
+}
+
+@media screen and (max-width: 1050px) {
+    .figures{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .conclusion p{
+        width: 100%;
+    }
+
 
 }
 
@@ -2256,9 +2339,7 @@ footer a{
         height: 20rem;
     }
 
-    .conclusion p{
-        width: 100%;
-    }
+
 }
 
 @media screen and (max-width: 820px) {
@@ -2303,6 +2384,10 @@ footer a{
     .type-one img{
         width: 2rem ;
     }
+
+    .disparity-conclusion img{
+        width: 3rem;
+    }
     
     .type-one {
         gap: 1rem;
@@ -2330,6 +2415,14 @@ footer a{
         
     }
 
+    .figures{
+        width: 90%;
+    }
+
+    .conclusion{
+        padding-top: 4rem ;
+    }
+
 
 }
 
@@ -2346,13 +2439,53 @@ h5{
 
 }
 
+@media screen and (max-width: 660px) {
+
+    .background-main-image img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .right-section-one{
+        display: none;
+    }
+    
+    .left-section-one{
+        padding-top: 0rem;
+    }
+    h1{
+        font-size: 2.2rem;
+        width: 25rem;
+    }
+    
+}
+
+@media screen and (max-width: 690px) {
+.f-size{
+    width: 12rem;
+}
+
+.figures img{
+    width: 80%;
+}
+
+.tourism img{
+    width: 6.5rem;
+}
+
+.figures{
+    gap: 2rem;
+}
+
+.bottom-figures p{
+    width: 100%;
+}
+}
+
 @media screen and (max-width: 600px) {
 
-    h1{
-        font-size: 2.4rem;
-        width: 28rem;
-}
-    
+
     .main-titles{
         gap: 1rem;
 }
@@ -2364,16 +2497,21 @@ h1{
 
 }
 
-@media screen and (max-width: 560px) {
-.right-section-one{
-    display: none;
-}
 
-.left-section-one{
-    padding-top: 0rem;
-}
-}
+@media screen and (max-width: 580px) {
+    .figures{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        flex-wrap: nowrap;
+    }
 
+    .bottom-figures p{
+        width: 18rem;
+    }
 
 
 }
@@ -2438,9 +2576,6 @@ h1{
         font-size: 1.1rem;
     }
 
-    .main-titles img{
-        width: 15rem;
-    }
 
     .main-content-right{
         gap: 2rem;
@@ -2462,10 +2597,13 @@ h1{
     width: 60%;
     }
 
-
-    
     h5{
         font-size: 1.45rem;
+    }
+
+
+    .disparity-conclusion img{
+        width: 2.5rem;
     }
     
 
@@ -2479,11 +2617,14 @@ h1{
 }
 
     @media screen and (max-width: 385px) {
-
-
     nav {
         margin-top: 3rem;  
     }
+
+    .bottom-figures p{
+        width: 15rem;
+    }
+
 }
 
 @media screen and (max-width: 370px) {
