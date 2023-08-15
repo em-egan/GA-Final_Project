@@ -1525,14 +1525,20 @@ width: 24rem;
     padding-top: 4rem;
 }
 
+.ui-creation-image img{
+    width: 100%;
+}
+
 .high-fidelity-image{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 100%;
-    gap: 3rem;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 5rem;
-    padding-left: 4rem;
+    width: 90%;
+    height: 100%;
 }
 
 .high-fidelity-image img{
@@ -1551,7 +1557,7 @@ width: 24rem;
 #usability-testing-section img{
     filter: grayscale(0%);
     width: 47rem;
-    padding-left: 1rem;
+    padding-left: 0rem;
 }
 
 #usability-testing-section{
@@ -1671,6 +1677,27 @@ width: 24rem;
 
 .positive-insights, .important-insights{
     padding-left: 3rem;
+    width: 100%;
+}
+
+.positive-insights{
+    width: 100%;
+}
+
+.section-category-page{
+    width: 100%;
+}
+.positive-top-left, .positive-top-right, .positive-bottom-left, .positive-bottom-right {
+    width: 100%;
+}
+.positive-top, .positive-bottom{
+    width: 100%;
+}
+.positive-text-area{
+    width: 100%;
+}
+
+.positive-text{
     width: 100%;
 }
 
@@ -2024,10 +2051,56 @@ footer a{
         font-size: 3rem;
     }
 
+    .section-category-page{
+        width: 100%;
+    }
+
+    #cardsorting-section{
+        padding-right: 2rem;
+        width: 93%;
+        gap: 0rem;
+        justify-content: flex-start;
+        padding-left: 3rem;
+
+    }
+
+    .cardsort-images{
+        width: 100%;
+        flex-direction: row;
+        gap: 2rem;
+        padding-left: 0;
+        justify-content: flex-start;
+    }
+
+    .standardization-grid {
+        width: 40%;
+    }
+    .architecture-information {
+        width: 50%;
+    }
+    
+
+    #cardsorting-section .cta-blue{
+        margin-right: 5%;
+    }
+
 
 }
 
+@media screen and (max-width: 1540px) {
 
+    .high-fidelity-image{
+
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5rem;
+        width: 95%;
+        height: 80%;
+    }
+
+
+
+}
 
 @media screen and (max-width: 1510px) {
 
@@ -2066,10 +2139,11 @@ footer a{
         width: 60%;
     }
 
-    #usability-image img, #affinity img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
+    #usability-image img, #affinity img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
 
         width: 60%;
     }
+
 
     .right-bottom-right{
         gap: 0.8rem;
@@ -2085,6 +2159,10 @@ footer a{
 
     #personas-section img{
         width: 30%;
+    }
+
+    #userflow-section .cta-blue{
+        margin-right: 10%;
     }
 
 
@@ -2197,13 +2275,49 @@ footer a{
     }
 
 
+    #userflow-section img{
+        padding-left: 6rem;
+    }
+
+    .positive-insights{
+        width: 100%;
+    }
+
+    .section-category-page{
+        width: 100%;
+    }
+    .positive-top-left, .positive-top-right, .positive-bottom-left, .positive-bottom-right {
+        width: 100%;
+    }
+    .positive-top, .positive-bottom{
+        width: 100%;
+    }
+    .positive-text-area{
+        width: 100%;
+    }
+
+    .positive-text{
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width: 1376px) {
-.main-problem-right-text, .target-users-right-text, .necessity-solving-right-text, .improving-user-lives-right-text{
-    width: 20rem;
-}
+
+    .main-problem-right-text, .target-users-right-text, .necessity-solving-right-text, .improving-user-lives-right-text{
+        width: 20rem;
+    }
+
+    .high-fidelity-image{
+
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 5rem;
+        width: 98%;
+        height: 80%;
+    }
+    
+
 }
 
 
@@ -2225,6 +2339,22 @@ footer a{
     .personas-images{
         width: 75%;
     }
+
+    #cardsorting-section .cta-blue{
+        margin-right: 5%;
+    }
+
+    .high-fidelity-image{
+
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 5rem;
+        width: 94%;
+        height: 60%;
+    }
+    
+
+
 
 
 
@@ -2278,7 +2408,7 @@ footer a{
     gap: 0;
 }
 
-#usability-image, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image{
+#usability-image, #personas-section, #usability-testing-section, #interview-debrief, #competitor-image{
     justify-content: space-between;
     width: 100%;
     gap: 0;
@@ -2290,7 +2420,7 @@ footer a{
     width: 67%;
 }
 
-#usability-image img, #affinity img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
+#usability-image img, #affinity img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
     width: 67%;
 }
 
@@ -2302,8 +2432,26 @@ footer a{
     width: 32%;
 }
 
+.standardization-grid {
+    width: 40%;
+}
+.architecture-information {
+    width: 50%;
+}
+
+.high-fidelity-image{
+
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 5rem;
+    width: 100%;
+    height: 60%;
+}
+
 
 }
+
+
 
 
 
@@ -2323,8 +2471,25 @@ footer a{
         width: 12rem;
 }
 
+    #userflow-section img{
+        padding-left: 2rem;
+        width: 60%;
+    }
+
+    #userflow-section {
+        gap: 3rem;
+    }
+
+    .high-fidelity-image img{
+        width: 16%;
+
+    }
+    
+
+
 
 }
+
 
 @media screen and (max-width: 1185px) {
 
@@ -2416,6 +2581,8 @@ footer a{
         font-size: 0.6rem;
         width: 11rem;
 }
+
+
 
 
 }
@@ -2660,12 +2827,25 @@ footer a{
         width: 60%;
     }
 
-    #usability-image img, #affinity img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
+    #usability-image img, #affinity img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
         width: 60%;
     }
 
     #personas-section img{
         width: 30%;
+    }
+
+    .architecture-information{
+        display: none;
+    }
+
+    .cardsort-images{
+        display: flex;
+        justify-content: center;
+    }
+
+    #cardsorting-section img{
+        width: 18rem
     }
 }
 
@@ -2767,6 +2947,18 @@ footer a{
     .main-container{
         gap:1.8rem;
     }
+
+    #usability-testing-section img{
+
+        width: 57%;
+    }
+
+    #interview-debrief {
+        width: 90%;
+        gap: 2rem;
+    }
+
+
 }
 
 @media screen and (max-width: 779px) {
@@ -2825,7 +3017,7 @@ footer a{
 
     }
 
-    #usability-image, #affinity, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image{
+    #usability-image, #affinity, #cardsorting-section, #usability-testing-section, #interview-debrief, #competitor-image{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
@@ -2843,8 +3035,18 @@ footer a{
     }
 
 
-    #usability-image img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img,#competitor-image img{
+    #usability-image img, #userflow-section img,#competitor-image img{
         width: 100%;
+    }
+
+    #interview-debrief img{
+        width: 80%;
+    }
+
+    #usability-testing-section img{
+        width: 80%;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
     }
 
     #personas-section img{
@@ -2858,6 +3060,76 @@ footer a{
     #affinity{
         gap: 3rem;
     }
+
+    .architecture-information{
+        display: inline-flex;
+    }
+
+    .cardsort-images{
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+    
+    }
+
+    #cardsorting-section{
+        background: none;
+        box-shadow: none;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        padding-top: 0;
+        margin-top: 3rem;
+
+    }
+
+    #cardsorting-section img {
+        width: 40%;
+    }
+
+    #userflow-section img{
+        padding-left: 0rem;
+        width: 50%;
+    }
+
+    #userflow-section{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+
+    #usability-testing-section{
+        gap: 0;
+    }
+    
+    .middle-title p{
+        width: 100%;
+
+    } 
+
+    .competitor-analysis p{
+        width: 100%;
+
+    } 
+
+    #testing-section p{
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 746px) {
+
+    #usability-testing-section img{
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+
+    
+
 
 }
 
@@ -2902,6 +3174,7 @@ h5{
     }
 
 }
+
 
 
 @media screen and (max-width: 660px) {
@@ -2958,8 +3231,22 @@ h5{
         padding-bottom: 0rem
     }
 
-    #usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image {
+    #usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #interview-debrief, #competitor-image {
         gap: 2rem;
+    }
+
+
+    #usability-testing-section{
+        gap: 0;
+    }
+    #cardsorting-section{
+        margin-top: 2rem;
+        height: fit-content;
+    }
+
+    #interview-debrief{
+        padding-top:2rem;
+        gap: 2.5rem;
     }
 
  }
@@ -3187,7 +3474,11 @@ h5{
 
     .button-style p{
         width: 105%;
-}
+    }
+
+    #usability-testing-section img{
+        padding-bottom: 2rem;
+    }
 }
 
 
@@ -3323,7 +3614,25 @@ p{
 
     .td-info{
         font-size: 0.9rem;
-}
+    }
+
+    .categorie-section-title h6{
+        font-size: 1.8rem;
+    }
+
+    #personas-section{
+        padding-bottom: 0;
+    }
+
+    .ui-creation-image{
+        padding-top: 2rem;
+    }
+
+    .high-fidelity-image{
+        margin-top: 3rem;
+    }
+
+
 }
 
 @media screen and (max-width: 360px) {
