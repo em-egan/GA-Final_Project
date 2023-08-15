@@ -1753,6 +1753,11 @@ footer a{
     padding-left: 10rem;
 }
 
+.br-one{
+    display: none;
+}
+
+
 @media screen and (max-width: 2250px) {
     .sections-justified{
         width: 80%;
@@ -1841,7 +1846,7 @@ footer a{
         width: 100%;
     }
     
-    }
+}
 
 @media screen and (max-width: 1660px) {
 
@@ -1880,6 +1885,11 @@ footer a{
     #usability-image{
         padding-left: 0;
     }
+
+    #usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image{
+        padding-left: 0;
+}
+
 }
 
 @media screen and (max-width: 1610px) {
@@ -2045,8 +2055,10 @@ footer a{
         width: 60%;
     }
 
+    #usability-image img, #affinity img, #personas-section img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
 
-
+        width: 60%;
+}
 }
 
 @media screen and (max-width: 1440px) {
@@ -2190,8 +2202,19 @@ footer a{
     gap: 0;
 }
 
+#usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image{
+    justify-content: space-between;
+    width: 100%;
+    gap: 0;
+}
+
+
 
 #usability-image img{
+    width: 67%;
+}
+
+#usability-image img, #affinity img, #personas-section img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
     width: 67%;
 }
 }
@@ -2411,6 +2434,15 @@ footer a{
         width: 100%; 
     }
 
+    .mv-background-middle-one, .mv-background-middle-two {
+        width: 100%; 
+        gap: 5rem;
+    }
+
+    .mv-background-middle-two{
+        padding-top: 5rem;
+    }
+
 
     .necessity-solving-right-text h2{
         width: 30rem;
@@ -2428,9 +2460,6 @@ footer a{
         width: 100%;
     }
 
-    .mv-background-middle-two{
-        padding-top: 3rem;
-    }
 
     .mv-about p{
         width: 100%;
@@ -2445,6 +2474,10 @@ footer a{
 @media screen and (max-width: 980px) {
     
     #usability-image img{
+        width: 60%;
+    }
+
+    #usability-image img, #affinity img, #personas-section img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
         width: 60%;
     }
 }
@@ -2575,7 +2608,7 @@ footer a{
 
     }
 
-    #usability-image{
+    #usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
@@ -2583,11 +2616,15 @@ footer a{
         padding-top: 3rem;
     }
 
+
     #usability-image img{
         width: 100%;
 
+}
 
-
+#usability-image img, #affinity img, #personas-section img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img,#competitor-image img{
+    width: 100%;
+}
 
 }
 
@@ -2625,6 +2662,10 @@ h5{
 
     .bottom-figures p{
         width: 100%;
+    }
+
+    .conclusion{
+        padding-bottom: 0;
     }
 
 }
@@ -2684,6 +2725,10 @@ h5{
         padding-bottom: 0rem
     }
 
+    #usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image {
+        gap: 2rem;
+    }
+
  }
 
 @media screen and (max-width: 640px) {
@@ -2718,12 +2763,7 @@ h5{
     }
 }
 
-h1{
-    font-size: 1.8rem;
-    width: 25rem;
-}
 
-}
 
 
 @media screen and (max-width: 580px) {
@@ -2777,6 +2817,9 @@ h1{
         height: 3.5rem;
     }
 
+    .title-section-usability h3{
+        font-size: 1.9rem;
+    }
 
 }
 
@@ -2849,9 +2892,45 @@ h1{
 
 @media screen and (max-width: 400px) {
     
-.main-content-description h2{
-    font-size: 1.02rem;
+h2{
+    font-size: 1.1rem;
 }
+
+p{
+    font-size: 0.9rem;
+}
+
+.main-content-description h2{
+    font-size: 1.1rem;
+}
+
+.br-two{
+    display: none;
+}
+
+.category-button {
+    font-size: 0.9rem;
+}
+
+.type-three p{
+    width: 90%;
+}
+
+.title-section-usability h3{
+    font-size: 1.8rem;
+}
+
+.evaluating-section{
+    gap: 4rem;
+}
+
+.conclusion{
+    padding-bottom: 0;
+}
+
+
+
+
 }
 
     @media screen and (max-width: 385px) {
@@ -2866,6 +2945,7 @@ h1{
     .middle-title h3{
         font-size: 1.2rem;
     }
+    
 
     .middle-title{
         width: 100%;
@@ -2885,6 +2965,14 @@ h1{
         font-size: 0.9rem;
 }
 }
+
+@media screen and (max-width: 360px) {
+
+    h1{
+        font-size: 1.65rem;
+    }
+}
+
 @media screen and (max-width: 346px) {
 
 }
