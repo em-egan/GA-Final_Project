@@ -916,11 +916,13 @@ html{
     border-style: none;
     border-color: buttonborder;
     transition: 0.5s ease;
+    color: #FFF;
 }
 
 .cta-blue:hover{
     background: #0b2ffd;
     transform: scale(1.1) rotate(0deg);
+    color: #FFF;
 }
 
 #evaluating-for-usability{
@@ -1098,7 +1100,7 @@ width: 24rem;
     position: absolute;
 }      
 
-#grey-background-insights-two{
+#grey-background-insights-two, #grey-background-insights-three{
     height: 19.8rem;
     width: 73rem;
     background-color: #F4F4F4;
@@ -1371,7 +1373,7 @@ width: 24rem;
     position: relative;
 }
 
-#right-part-insights-two{
+#right-part-insights-two, #right-part-insights-three{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1903,7 +1905,7 @@ footer a{
         width: 102%;
     }
 
-    #grey-background-insights-two{
+    #grey-background-insights-two, #grey-background-insights-three{
         width: 108%;
     }
 
@@ -2099,7 +2101,7 @@ footer a{
         gap: 0.5rem ;
     }
 
-    #grey-background-insights-two{
+    #grey-background-insights-two, #grey-background-insights-three{
         width: 102%;
     }
 
@@ -2207,7 +2209,7 @@ footer a{
         width: 105%;
     }
 
-    #grey-background-insights-two{
+    #grey-background-insights-two, #grey-background-insights-three{
         width: 105%;
     }
 
@@ -2801,7 +2803,7 @@ footer a{
         display: inline-flex
     }
 
-    #right-part-insights-two{
+    #right-part-insights-two, #right-part-insights-three{
         padding-bottom: 0;
     }
 
