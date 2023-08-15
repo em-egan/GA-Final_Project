@@ -373,7 +373,7 @@ footer a{
     }
 
     .main-title img{
-        width:60%;
+        width:75%;
     }
 
     .projects-grid{
@@ -395,6 +395,10 @@ footer a{
         font-weight: 400;
         font-style: normal;
         line-height: normal;
+    }
+
+    .main-title{
+        gap: 0.7rem ;
     }
 }
 
@@ -534,8 +538,12 @@ footer a{
         font-weight: 500;
     }
 
+    .main-title{
+        gap: 0.7rem ;
+    }
+
     .main-title img{
-        width:80%;
+        width:70%;
     }
 
     h5{
