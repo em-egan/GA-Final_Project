@@ -1115,12 +1115,6 @@ width: 24rem;
 }
 
 
-.insights{
-    padding-left: 0;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-    position: relative;
-}
 
 .white-background{
     height: 5.5rem;
@@ -1391,6 +1385,10 @@ width: 24rem;
     display: inline-flex;
     align-items: end;
     gap: 3rem;
+    padding-left: 0;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    position: relative;
     filter: grayscale(100%);
     transition: all 1s ease;
 }
@@ -1910,6 +1908,17 @@ footer a{
     letter-spacing: 0.07363rem;
 }
 
+.left-right-insight{
+    display: none;
+}
+
+.grey-background-insights{
+    width: 102%;
+}
+
+#grey-background-insights-two{
+    width: 108%;
+}
 
 }
 
@@ -2018,6 +2027,8 @@ footer a{
 
 }
 
+
+
 @media screen and (max-width: 1510px) {
 
     .objectives-one, .objectives-two, .ux-strategy-one, .ux-strategy-two{
@@ -2055,10 +2066,29 @@ footer a{
         width: 60%;
     }
 
-    #usability-image img, #affinity img, #personas-section img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
+    #usability-image img, #affinity img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
 
         width: 60%;
-}
+    }
+
+    .right-bottom-right{
+        gap: 0.8rem;
+    }
+
+    .insight-item{
+        gap: 0.5rem ;
+    }
+
+    #grey-background-insights-two{
+        width: 102%;
+    }
+
+    #personas-section img{
+        width: 30%;
+    }
+
+
+
 }
 
 @media screen and (max-width: 1440px) {
@@ -2105,6 +2135,11 @@ footer a{
 
     }
 
+
+    .button-style p{
+        font-size: 0.7rem;
+        width: 14rem;
+}
 }
 
 @media screen and (max-width: 1410px) {
@@ -2130,6 +2165,38 @@ footer a{
         width: 100%;
     }
 
+    .insight-item p {
+        
+        font-size: 0.65rem;
+        width: fit-content;
+    }
+
+    .right-bottom-right{
+        gap: 1.5rem;
+    }
+
+    .right-top-left p{
+        font-size: 0.8rem;
+        width: 18rem
+    }
+
+    .right-top-right{
+        display: none;
+    }
+
+    .grey-background-insights{
+        width: 105%;
+    }
+
+    #grey-background-insights-two{
+        width: 105%;
+    }
+
+    .right-top-left{
+        width: 22rem ;
+    }
+
+
 
 }
 
@@ -2150,6 +2217,15 @@ footer a{
     .background-main-image{
         width: 100%;
     }
+
+    #personas-section{
+        gap: 0;
+    }
+
+    .personas-images{
+        width: 75%;
+    }
+
 
 
 
@@ -2202,7 +2278,7 @@ footer a{
     gap: 0;
 }
 
-#usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image{
+#usability-image, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image{
     justify-content: space-between;
     width: 100%;
     gap: 0;
@@ -2214,9 +2290,19 @@ footer a{
     width: 67%;
 }
 
-#usability-image img, #affinity img, #personas-section img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
+#usability-image img, #affinity img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
     width: 67%;
 }
+
+#affinity{
+    gap: 7%;
+}
+
+#personas-section img{
+    width: 32%;
+}
+
+
 }
 
 
@@ -2229,8 +2315,26 @@ footer a{
         font-size: 2.8rem;
     }
 
-    
 
+
+    .button-style p{
+
+        font-size: 0.6rem;
+        width: 12rem;
+}
+
+
+}
+
+@media screen and (max-width: 1185px) {
+
+    .s3{
+        display: none;
+    }
+
+    .s6{
+        display: none;
+    }
 
 }
 
@@ -2251,10 +2355,52 @@ footer a{
 
 }
 
+
+
 @media screen and (max-width: 1160px) {
     .main-problem-right-text, .target-users-right-text, .necessity-solving-right-text, .improving-user-lives-right-text{
         width: 17rem;
     }
+
+    .insights{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 3rem;
+        padding-left: 0;
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+        width: 100%;
+        border-bottom: #2c2c2c 0.5px solid;
+    }
+
+    .grey-background-insights{
+        display: none;
+    }
+
+    .left-part-insights{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0rem;
+        padding-left: 0rem;
+        padding-bottom: 0rem;
+    }
+    
+
+    .right-part-insights{
+        padding-bottom: 0;
+    }
+
+    #border-bottom{
+
+        border-bottom: none;
+        padding-bottom: 2rem;
+    }
+    
+
 }
 
 
@@ -2263,6 +2409,14 @@ footer a{
     .figures h3{
         font-size: 1.2rem;
     }
+
+
+    .button-style p{
+
+        font-size: 0.6rem;
+        width: 11rem;
+}
+
 
 }
 
@@ -2274,11 +2428,6 @@ footer a{
     .sections-justified{
         padding-left: 0rem;
     }
-
-    /* .page-centered{
-        margin-left: 15%;
-        margin-right: 15%;
-    } */
 
     .sections-justified{
         width: 100%;
@@ -2369,6 +2518,10 @@ footer a{
         width: 12rem ;
     }
 
+    .interview-buttons{
+        gap: 2rem ;
+    }
+
 
 
 }
@@ -2426,8 +2579,29 @@ footer a{
         letter-spacing: 0.07363rem;
     }
 
-}
+    .interview-buttons{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 0rem;
+    }
 
+    .space-between-button{
+        gap: 2rem;
+    }
+
+    .button-style p{
+        font-size: 0.8rem;
+        width: 17rem;
+    }
+
+    .space-between-button{
+        padding-bottom: 0;
+    }
+}   
 @media screen and (max-width: 1040px) {
 
     .mv-background-middle-one p, .mv-background-middle-two p{
@@ -2469,7 +2643,16 @@ footer a{
         width: 100%;
     }
 
+
 }
+
+@media screen and (max-width: 1010px) {
+
+    .bracket{
+        height: 20rem;
+    }
+}
+
 
 @media screen and (max-width: 980px) {
     
@@ -2477,8 +2660,12 @@ footer a{
         width: 60%;
     }
 
-    #usability-image img, #affinity img, #personas-section img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
+    #usability-image img, #affinity img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
         width: 60%;
+    }
+
+    #personas-section img{
+        width: 30%;
     }
 }
 
@@ -2491,6 +2678,36 @@ footer a{
     .figures{
         width: 70%;
     }
+
+    .insights{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 3rem;
+        padding-left: 0;
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+        width: 100%;
+        border-bottom: #2c2c2c 0.5px solid;
+        width: 100%;
+    }
+
+    .right-top-left{
+        background: #F4F4F4;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+
+    }
+
+    .s3, .s6{
+        display: inline-flex
+    }
+
+    #right-part-insights-two{
+        padding-bottom: 0;
+    }
+
 }
 
 @media screen and (max-width: 859px) {
@@ -2608,7 +2825,7 @@ footer a{
 
     }
 
-    #usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image{
+    #usability-image, #affinity, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
@@ -2617,14 +2834,30 @@ footer a{
     }
 
 
-    #usability-image img{
+    #personas-section{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 4rem;
+        padding-top: 1.5rem;
+    }
+
+
+    #usability-image img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img,#competitor-image img{
         width: 100%;
+    }
 
-}
+    #personas-section img{
+        width: 40%;
+    }
 
-#usability-image img, #affinity img, #personas-section img, #cardsorting-section img, #userflow-section img, #usability-testing-section img, #interview-debrief img,#competitor-image img{
-    width: 100%;
-}
+    #affinity img{
+        width: 60%;
+    }
+
+    #affinity{
+        gap: 3rem;
+    }
 
 }
 
@@ -2761,6 +2994,12 @@ h5{
         border-bottom: 1.5px solid #171515;
         height: 3.7rem;
     }
+
+    .button-style p{
+        font-size: 0.6rem;
+        width: 11rem;
+    }
+
 }
 
 
@@ -2821,6 +3060,74 @@ h5{
         font-size: 1.9rem;
     }
 
+    .space-between-button{
+        padding-top: 3rem;
+    }
+
+    .competitor-analysis{
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .s3{
+        display: none;
+    }
+
+    .s6{
+        display: none;
+    }
+
+    .right-top-insights{
+        width: 100%;
+    }
+
+    .insight-item p {
+        font-size: 0.55rem;
+        width: 100%;
+    }
+
+    .right-top-left p{
+        font-size: 0.7rem;
+        width: 100%;
+    }
+
+    .right-top-left{
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 490px) {
+
+    .button-style, .button-elements {
+        height: 95px;
+    }
+
+    .button-elements{
+        padding-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .picture img{
+        height: 100%
+    }
+
+    .button-interview-text img{
+        height: 1.5rem;
+    }
+
+    
+    .button-style p{
+        font-size: 0.55em;
+        width: 100%
+    }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -2841,7 +3148,13 @@ h5{
     .main-image-left{
     height: 17rem;
 
-}
+    }
+
+    .space-between-button br{
+        display: none;
+    }
+
+
 
 
 }
@@ -2864,6 +3177,20 @@ h5{
 
 }
 
+@media screen and (max-width: 460px) {
+    .button-elements{
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 0.8rem;
+    }
+
+    .button-style p{
+        width: 105%;
+}
+}
+
+
 @media screen and (max-width: 443px) {
 
     .topleft img{
@@ -2885,6 +3212,27 @@ h5{
 
     .disparity-conclusion img{
         width: 2.5rem;
+    }
+
+    .button-elements{
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 0.8rem;
+    }
+
+    .button-style p{
+        width: 105%;
+        font-size: 0.5rem;
+    }
+
+    .left-left-bottom-insight{
+        width: 100%;
+
+    }
+
+    .pov-text{
+        width: 100%;
     }
     
 
@@ -2953,6 +3301,18 @@ p{
         height: 3rem;
     }
 
+    .competitor-analysis{
+        padding-top: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 377px) {
+
+.button-style p{
+    width: 105%;
+    font-size: 0.4rem;
+}
 }
 
 @media screen and (max-width: 370px) {
@@ -2971,6 +3331,12 @@ p{
     h1{
         font-size: 1.65rem;
     }
+
+    .pov-br{
+        display: none;
+    }
+
+
 }
 
 @media screen and (max-width: 346px) {
