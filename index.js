@@ -1,4 +1,4 @@
-//cursor click
+//cursor click//
 
 function changeCursorOnClick() {
     document.body.style.cursor = `url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/36558a5333a7d172fc0d1b52e1aaca0693fce0a0/1%20Cursor/cursor_clicked.svg'), auto`;
@@ -11,7 +11,18 @@ function changeCursorOnClick() {
 window.addEventListener('click', changeCursorOnClick);
 
 
-//UX Link image change
+//Hamburger menu//
+
+document.querySelector('.hamburger-img').addEventListener('click', function(){
+    document.getElementById('menu').classList.add('toggle-open');
+})
+
+document.getElementById('menu-close').addEventListener('click', function(){
+    document.getElementById('menu').classList.remove('toggle-open');
+})
+
+
+//UX Link image change//
 
 const uxImage = document.querySelector('.UX-Design');
 const originalSrcUx = uxImage.src;
