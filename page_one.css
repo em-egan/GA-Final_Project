@@ -1680,8 +1680,8 @@ width: 24rem;
     width: 100%;
 }
 
-.positive-insights{
-    width: 100%;
+.positive-insights, .important-insights{
+    width: 90%;
 }
 
 .section-category-page{
@@ -1699,6 +1699,14 @@ width: 24rem;
 
 .positive-text{
     width: 100%;
+}
+
+.padding-icon{
+    padding-left: 0.9rem;
+}
+
+.important-insights .positive-top{
+    gap:9rem;
 }
 
 ul{
@@ -1722,7 +1730,7 @@ ul{
 }
 
 .iteration-image img{
-    width: 60rem;
+    width: 80%;
     transition: all 1s ease;
 }
 
@@ -1781,6 +1789,7 @@ footer a{
 .br-one{
     display: none;
 }
+
 
 
 @media screen and (max-width: 2250px) {
@@ -2280,7 +2289,7 @@ footer a{
     }
 
     .positive-insights{
-        width: 100%;
+        width: 90%;
     }
 
     .section-category-page{
@@ -2446,6 +2455,18 @@ footer a{
     margin-top: 5rem;
     width: 100%;
     height: 60%;
+}
+
+.section-category-page, .sections-justified{
+    width: 100%;
+}
+
+
+.positive-insights, .important-insights{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
 }
 
 
@@ -2768,6 +2789,27 @@ footer a{
     .space-between-button{
         padding-bottom: 0;
     }
+
+    .positive-insights img, .important-insights img{
+        height: 4rem;
+    }
+
+    .positive-top-left, .positive-top-right, .positive-bottom-left, .positive-bottom-right{
+        gap: 1.5rem;
+    }
+
+    .padding-icon{
+        padding-left: 0.2rem;
+    }
+
+    .important-insights .positive-top{
+        gap:6rem;
+    }
+
+    .positive-top, .positive-bottom{
+        gap: 3.5rem;
+    }
+
 }   
 @media screen and (max-width: 1040px) {
 
@@ -3144,6 +3186,42 @@ h5{
     gap:1.5rem;
 }
 
+}
+
+@media screen and (max-width: 710px) {
+    
+    .positive-top, .positive-bottom{
+        display:flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .positive-insights{
+        gap: 2rem;
+    }
+
+    .padding-two{
+        padding-left: 0.9rem;
+    }
+
+    .important-insights .positive-top{
+        gap: 2rem;
+    }
+
+    .positive-title-top, .important-title-bottom{
+        padding-bottom: 1rem;
+        padding-top: 4rem;
+    }
+
+    .positive-insights, .important-insights{
+        padding-bottom: 2rem;
+    }
+
+    .important-insights{
+        padding-bottom: 0;
+    }
+
+    
 }
 
 
@@ -3595,6 +3673,21 @@ p{
     .competitor-analysis{
         padding-top: 3rem;
     }
+
+    .positive-insights img, .important-insights img{
+        height: 3rem;
+    }
+
+    .padding-two{
+        padding-left: 0.8rem;
+    }
+
+    .important-insights .positive-top {
+        gap: 2rem;
+    }
+
+    
+
 
 }
 
