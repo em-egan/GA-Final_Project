@@ -1532,17 +1532,17 @@ width: 24rem;
     padding-left: 1rem;
 }
 
-#interview-debrief img{
+#interview-debrief-two img{
     width: 45rem;
     transition: all 1s ease;
 }
 
-#interview-debrief{
+#interview-debrief-two{
     padding-left: 0rem;
     gap: 4rem;
 }
 
-#interview-debrief img:hover{
+#interview-debrief-two img:hover{
     transform: scale(1.1) rotate(0deg);
     z-index: 3;
 }
@@ -1680,6 +1680,10 @@ ul{
     line-height: 155.023%;
     padding-inline-start: 12px;
     margin-top: -10px;
+}
+
+.positive-text ul{
+    padding-top: 0.5rem;
 }
 
 .iteration-image{
@@ -1873,7 +1877,7 @@ footer a{
         padding-left: 0;
     }
 
-    #usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief, #competitor-image{
+    #usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #usability-testing-section, #interview-debrief-two, #competitor-image{
         padding-left: 0;
     }
 
@@ -2088,7 +2092,7 @@ footer a{
         width: 60%;
     }
 
-    #usability-image img, #affinity img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
+    #usability-image img, #affinity img, #userflow-section img, #usability-testing-section img, #interview-debrief-two img, #competitor-image img{
 
         width: 60%;
     }
@@ -2336,7 +2340,7 @@ footer a{
         gap: 0;
     }
 
-    #usability-image, #personas-section, #usability-testing-section, #interview-debrief, #competitor-image{
+    #usability-image, #personas-section, #usability-testing-section, #interview-debrief-two, #competitor-image{
         justify-content: space-between;
         width: 100%;
         gap: 0;
@@ -2346,7 +2350,7 @@ footer a{
         width: 67%;
     }
 
-    #usability-image img, #affinity img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
+    #usability-image img, #affinity img, #userflow-section img, #usability-testing-section img, #interview-debrief-two img, #competitor-image img{
         width: 67%;
     }
 
@@ -2749,7 +2753,7 @@ footer a{
         width: 60%;
     }
 
-    #usability-image img, #affinity img, #userflow-section img, #usability-testing-section img, #interview-debrief img, #competitor-image img{
+    #usability-image img, #affinity img, #userflow-section img, #usability-testing-section img, #interview-debrief-two img, #competitor-image img{
         width: 60%;
     }
 
@@ -2868,7 +2872,7 @@ footer a{
         width: 57%;
     }
 
-    #interview-debrief {
+    #interview-debrief-two {
         width: 90%;
         gap: 2rem;
     }
@@ -2931,7 +2935,7 @@ footer a{
 
     }
 
-    #usability-image, #affinity, #cardsorting-section, #usability-testing-section, #interview-debrief, #competitor-image{
+    #usability-image, #affinity, #cardsorting-section, #usability-testing-section, #interview-debrief-two, #competitor-image{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
@@ -2953,7 +2957,7 @@ footer a{
         width: 100%;
     }
 
-    #interview-debrief img{
+    #interview-debrief-two img{
         width: 80%;
     }
 
@@ -3167,7 +3171,7 @@ footer a{
         padding-bottom: 0rem
     }
 
-    #usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #interview-debrief, #competitor-image {
+    #usability-image, #affinity, #personas-section, #cardsorting-section, #userflow-section, #interview-debrief-two, #competitor-image {
         gap: 2rem;
     }
 
@@ -3180,7 +3184,7 @@ footer a{
         height: fit-content;
     }
 
-    #interview-debrief{
+    #interview-debrief-two{
         padding-top:2rem;
         gap: 2.5rem;
     }
