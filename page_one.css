@@ -1,4 +1,8 @@
 
+.return-button{
+    display: none;
+}
+
 .page-centered{
     margin-left: 10%;
     margin-right: 10%;
@@ -2387,6 +2391,15 @@ footer a{
         padding-left: 0;
         margin: 0;
     }
+
+    .return-button{
+        display: inline-flex;
+        bottom: 4%; 
+        right: 4%; 
+        transform: translateX(-50%);
+        position: fixed;
+        z-index: 10;
+    }
 }
 
 @media screen and (max-width: 1259px) {
@@ -3297,6 +3310,15 @@ footer a{
 
     .bottom-figures p{
         width: 18rem;
+    }
+
+    .return-button{
+        display: inline-flex;
+        bottom: 2%; 
+        right: 2%; 
+        transform: translateX(-50%);
+        position: fixed;
+        z-index: 10;
     }
 }
 
