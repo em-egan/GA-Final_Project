@@ -3510,6 +3510,11 @@ footer a{
     .section-category-page{
         padding-top: 1.5rem;
     }
+
+    .mv-background-middle-one, .mv-background-middle-two{
+        gap: 3rem;
+        padding-top: 3rem ;
+    }
 }
 
 @media screen and (max-width: 385px) {
