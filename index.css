@@ -16,7 +16,8 @@ a{
 .projects-item{
     overflow: hidden; 
     margin: 0 auto;
-    
+    position: relative;
+    width: 100%;
 }
 
 .project-image-one img{
@@ -262,9 +263,6 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: top; 
 }
 
-.projects-item{
-    position: relative;
-}
 
 .project-button {
     position: absolute;
