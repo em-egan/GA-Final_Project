@@ -22,6 +22,11 @@ document.getElementById('menu-close').addEventListener('click', function(){
   document.getElementById('menu').classList.remove('toggle-open');
 })
 
+document.getElementById('one').addEventListener('click', function(){
+  document.getElementById('menu').classList.remove('toggle-open');
+})
+
+
 
 // aside menu selection//
 
