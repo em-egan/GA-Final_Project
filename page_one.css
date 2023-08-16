@@ -3300,6 +3300,12 @@ footer a{
     }
 }
 
+@media screen and (max-width: 558px) {
+.main-titles img{
+    width: 16rem;
+}
+}
+
 @media screen and (max-width: 540px) {
 
     .main-container{
@@ -3441,6 +3447,12 @@ footer a{
     .main-content-right{
         gap: 2rem;
     }
+
+    .main-titles img{
+        width: 14rem;
+    }
+
+    
 }
 
 @media screen and (max-width: 460px) {
