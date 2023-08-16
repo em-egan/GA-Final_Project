@@ -3041,6 +3041,12 @@ footer a{
     }
 }
 
+@media screen and (max-width: 725px) {
+    .white-background{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 740px) {
 
     h5{
