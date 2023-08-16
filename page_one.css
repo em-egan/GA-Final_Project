@@ -362,7 +362,7 @@ nav a{
 
 .section-one-page{
     display: flex;
-    padding-top: 6rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
 }
 
@@ -378,6 +378,7 @@ nav a{
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
+    padding-bottom: 0;
 }
 
 table {
@@ -1782,7 +1783,7 @@ footer a{
     }
 
     .left-section-one{
-        padding-bottom: 2rem;
+        padding-bottom: 0rem;
         padding-top: 1rem;
     }
 
@@ -2594,6 +2595,8 @@ footer a{
 
     .section-one{
         margin:0;
+        gap: 3rem;
+        padding-bottom: 2rem;
     }
 
     .right-section-one{
@@ -2611,6 +2614,8 @@ footer a{
     .interview-buttons{
         gap: 2rem ;
     }
+
+    
 }
 
 @media screen and (max-width: 1086px) {
@@ -2855,6 +2860,11 @@ footer a{
     footer{
         height: 20rem;
     }
+
+    .left-section-one{
+        padding-top: 5rem;
+    }
+
 
 
 }
@@ -3190,7 +3200,7 @@ footer a{
     }
 
     .title-section-usability{
-        padding-top: 3rem;
+        padding-top: 4rem;
     }
 
     .section-one-page{
