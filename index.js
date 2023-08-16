@@ -21,6 +21,11 @@ document.getElementById('menu-close').addEventListener('click', function(){
     document.getElementById('menu').classList.remove('toggle-open');
 })
 
+document.getElementById('one').addEventListener('click', function(){
+    document.getElementById('menu').classList.remove('toggle-open');
+})
+
+
 
 //UX Link image change//
 
@@ -41,5 +46,4 @@ function revertImageOnMouseOutUx() {
 
 uxImage.addEventListener('mouseover', changeImageOnHoverUx);
 uxImage.addEventListener('mouseout', revertImageOnMouseOutUx);
-
 
