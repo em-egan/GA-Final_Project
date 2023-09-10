@@ -291,7 +291,7 @@ nav a{
 
 .main-content-right{
     display: flex;
-    padding-right: 5rem;
+    padding-right: 0rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 2.8125rem;
@@ -1782,10 +1782,6 @@ footer a{
 
     }
 
-    .necessity-solving-right-text h2{
-        width: 15rem;
-    }
-
     .left-section-one{
         padding-bottom: 0rem;
         padding-top: 1rem;
@@ -1841,6 +1837,10 @@ footer a{
 
     .f-size{
         width: 100%;
+    }
+
+    .necessity-solving-right-text h2{
+        width: 15rem;
     }
     
 }
