@@ -12,7 +12,7 @@
 }
 
 .wip h2{
-    color: #a9a9a9;
+    color: #9a9898;
 }
 .return-button{
     display: none;
@@ -691,8 +691,36 @@ html{
     padding-bottom: 3rem;
 }
 
+.project-section-type-two{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+.project-section-type-three{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
 .mv-intro{
     padding-top: 6rem
+}
+
+.categorie-grey-two{
+    height: 24.5625rem;
+    background-color: #f4f4f490;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    left: 0; 
+    right: 0;
 }
 
 .categorie-grey{
@@ -717,6 +745,34 @@ html{
     align-items: flex-start;
     gap: 4.1875rem;
 }
+
+.type-one-two{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4.1875rem;
+}
+
+.solution-left-part{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.solution-left-part p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.solution{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.3125rem;
+    width: 80%;
+}
+
 
 #research{
     display: flex;
@@ -901,10 +957,20 @@ html{
     padding-bottom: 3rem;
 }
 
+.conclusion-two{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
 .disparity-right-text p{
     width: 40rem;
     margin-block-start: 0em;
-    margin-block-end: 0em;
+    margin-block-end: 1em;
 }
 
 .disparity-conclusion{
@@ -2152,6 +2218,13 @@ footer a{
         font-size: 2.2rem;
         line-height: 130%; 
     }
+
+    .disparity-right-text p{
+        width: 34rem;
+        margin-block-start: 0em;
+        margin-block-end: 1em;
+    }
+    
 }
 
 @media screen and (max-width: 1470px) {
@@ -2756,6 +2829,10 @@ footer a{
         width: 100%;
     }
 
+    .conclusion-two p{
+        width: 100%;
+    }
+
     .cta-blue{
         height: 4rem;
         padding: 0rem 2.4rem;
@@ -2808,6 +2885,12 @@ footer a{
     .positive-top, .positive-bottom{
         gap: 3.5rem;
     }
+
+    .head-icon img{
+        width: 10rem;
+    }
+
+
 }   
 
 @media screen and (max-width: 1040px) {
@@ -2978,6 +3061,39 @@ footer a{
         padding-top: 5rem;
     }
 
+    .head-icon img{
+        width: 8rem;
+    }
+
+    .disparity-right-text p{
+        width: 90%;
+    }
+
+    .categorie-grey-two{
+        visibility: hidden;
+    }
+
+    .conclusion-two{
+        padding-top: 0;
+    }
+
+    .solution-right-part img{
+        width: 80%;
+    }
+
+    .solution{
+        width: 100%; 
+    }
+
+    .conclusion-two{
+        padding-bottom: 0;
+    }
+
+    .project-section-type-two{
+        padding-bottom: 0;
+    }
+
+
 
 
 }
@@ -3039,14 +3155,10 @@ footer a{
     
 
     .disparity-conclusion img{
-        width: 3rem;
+        width: 5rem;
     }
-    
 
 
-    .type-three{
-        gap:1rem;
-    }
     
     .categorie-section-title h6{
         font-size: 2.2rem;
@@ -3056,13 +3168,16 @@ footer a{
         height: 9rem;
     }
 
- 
 
     .figures{
         width: 80%;
     }
 
     .conclusion{
+        padding-top: 4rem ;
+    }
+
+    .conclusion-two{
         padding-top: 4rem ;
     }
 
@@ -3192,6 +3307,25 @@ footer a{
     .section-category-page{
         padding-bottom: 1rem;
     }
+
+    .project-section-type-two{
+        padding-top:0;
+    }
+
+    .project-section-type-three{
+        padding-top:0;
+    }
+
+    .disparity-conclusion img{
+        width: 80%;
+    }
+    .disparity-conclusion{
+        gap: 0;
+    }
+
+   .type-two{
+    padding-bottom: 3rem;
+   }
 }
 
 @media screen and (max-width: 746px) {
@@ -3202,11 +3336,7 @@ footer a{
     }
 }
 
-@media screen and (max-width: 725px) {
-    .white-background{
-        display: none;
-    }
-}
+
 @media screen and (max-width: 740px) {
 
     h5{
@@ -3218,6 +3348,53 @@ footer a{
     }
 
 }
+
+@media screen and (max-width: 725px) {
+    .white-background{
+        display: none;
+    }
+
+    .disparity-conclusion img{
+        width: 5rem;
+        padding-right: 1rem;
+    }
+
+    .type-three{
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 716px) {
+
+.solution{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.solution-right-part img{
+    width: 60%;
+}
+
+.solution-left-part{
+    width:100%;
+    gap: 1rem;
+}
+
+.project-section-type-two{
+    padding-bottom: 2rem;
+}
+
+.type-two{
+    padding-bottom: 1rem;
+}
+
+
+}
+
+
 
 @media screen and (max-width: 710px) {
     
@@ -3277,6 +3454,10 @@ footer a{
     }
 
     .conclusion{
+        padding-bottom: 0;
+    }
+
+    .conclusion-two{
         padding-bottom: 0;
     }
 
@@ -3434,14 +3615,6 @@ footer a{
     }
 
 
-    .type-one img{
-        width: 2rem ;
-    }
-
-    .type-one {
-        gap: 1rem;
-    }
-
     #research img{
         width: 8rem ;
         padding-bottom: 1.5rem;
@@ -3451,6 +3624,42 @@ footer a{
         padding-top: 0rem;
         gap: 1rem;
     }
+
+    .type-one img{
+        width: 2rem ;
+    }
+
+    .type-one {
+        gap: 1rem;
+    }
+
+    .type-one-two img{
+        width: 60%;
+    }
+
+    .disparity-conclusion img{
+        padding-right: 0;
+    }
+
+    .type-one-two {
+        gap: 1rem ;
+    }
+
+    .stroke-hidden{
+        display: none;
+    }
+
+    .type-one-two{
+        display: flex;
+        flex-direction: column;
+        
+        gap: 2rem;
+    }
+    
+    }
+
+
+
 
 }
 
@@ -3611,6 +3820,9 @@ footer a{
     .space-between-button br{
         display: none;
     }
+
+
+
 }
 
 @media screen and (max-width: 470px) {
@@ -3670,10 +3882,6 @@ footer a{
         font-size: 1.45rem;
     }
 
-    .disparity-conclusion img{
-        width: 2.5rem;
-    }
-
     .button-elements{
         padding-right: 1rem;
         display: flex;
@@ -3727,6 +3935,10 @@ footer a{
 
     .evaluating-section, .stats{
         gap: 4rem;
+    }
+
+    .conclusion{
+        padding-bottom: 0;
     }
 
     .conclusion{
