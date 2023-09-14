@@ -1,3 +1,7 @@
+#objectives{
+    padding-top: 3rem;
+}
+
 .wip{
     display: flex;
     flex-direction: row;
@@ -5,6 +9,7 @@
     align-items: center;
     width: 100%;
     padding-top: 8rem;
+    padding-bottom: 5rem;
 }
 
 .br-four{
@@ -575,6 +580,10 @@ tr{
     border-radius: 4px 0px 0px 4px ;
 }
 
+#usability-image{
+    padding-bottom: 6rem;
+}
+
 #interactive-background, #interactive-empathize, #interactive-define, #interactive-ideate, #interactive-prototype,#interactive-test  {
     visibility: hidden;
     animation: roll 5s ease-out; 
@@ -990,7 +999,7 @@ html{
     line-height: normal;
 }
 
-.evaluating-section{
+.evaluating-section, .evaluating-section-two{
     display: inline-flex;
     align-items: center;
     gap: 5.9375rem;
@@ -1056,7 +1065,7 @@ html{
     padding-top: 4rem;
 }
 
-.evaluating-section a{
+.evaluating-section a, .evaluating-section-two a{
     text-decoration: none;
     color: #FFF;
 }
@@ -1238,6 +1247,14 @@ width: 24rem;
 .evaluating-section img, .insights img {
    filter: grayscale(100%);
    transition: all 1s ease;
+}
+
+.evaluating-section-two img{
+    transition: all 1s ease;
+}
+
+.evaluating-section-two img:hover {
+    transform: scale(1.1) rotate(0deg);
 }
 
 .evaluating-section img:hover {
@@ -2229,7 +2246,7 @@ footer a{
 
 @media screen and (max-width: 1470px) {
 
-    .evaluating-section, .stats{
+    .evaluating-section, .stats, .evaluating-section-two{
         width: 100%;
     }
 
@@ -3181,7 +3198,7 @@ footer a{
         padding-top: 4rem ;
     }
 
-    .evaluating-section, .stats{
+    .evaluating-section, .stats, .evaluating-section-two{
         flex-direction: column;
         justify-content: flex-start;
 
@@ -3933,7 +3950,7 @@ footer a{
         font-size: 1.8rem;
     }
 
-    .evaluating-section, .stats{
+    .evaluating-section, .stats, .evaluating-section-two{
         gap: 4rem;
     }
 
