@@ -3385,7 +3385,7 @@ footer a{
     }
 
     .middle-title h3{
-        font-size: 4rem;
+        font-size: rem;
     }
 
     .middle-title{
@@ -3411,12 +3411,12 @@ footer a{
     }
 
     .middle-title h3{
-        font-size: 3rem;
+        font-size: 3.6rem;
     }
     
     .middle-title{
         width: 100%;
-        border-bottom: 1.5px solid #171515;
+        border-bottom: 1px solid #171515;
         height: 6rem;
     }
 
