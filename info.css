@@ -1,3 +1,4 @@
+
 .mv-about a{
     color: #105EFB;
     text-decoration: none;
@@ -1776,7 +1777,7 @@ footer a{
     padding-left: 10rem;
 }
 
-.br-one{
+.br-one, .br-two{
     display: none;
 }
 
@@ -2324,6 +2325,10 @@ footer a{
     
     .mv-about p{
         width: 30rem;
+    }
+
+    .br-one{
+        display: inline;
     }
 }
 
@@ -3343,9 +3348,15 @@ footer a{
 }
 
 @media screen and (max-width: 558px) {
-.main-titles img{
-    width: 16rem;
+    .main-titles img{
+        width: 16rem;
+    }
 }
+
+@media screen and (max-width: 550px) {
+    .br-one{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -3389,6 +3400,17 @@ footer a{
 
     .competitor-analysis{
         padding-top: 3rem;
+    }
+
+    #research img{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .br-two{
+        display: inline;
     }
 }
 
@@ -3569,10 +3591,6 @@ footer a{
 
     .main-content-description h2{
         font-size: 1.1rem;
-    }
-
-    .br-two{
-        display: none;
     }
 
     .category-button {
