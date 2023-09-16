@@ -756,6 +756,7 @@ html{
 
 .background-main-image img{
     transition: all 1s ease;
+    width: 50%;
 }
 
 
