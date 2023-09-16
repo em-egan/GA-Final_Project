@@ -3409,6 +3409,26 @@ footer a{
     #research img{
         width: 50%;
     }
+
+    .middle-title h3{
+        font-size: 3rem;
+    }
+    
+    .middle-title{
+        width: 100%;
+        border-bottom: 1.5px solid #171515;
+        height: 6rem;
+    }
+
+    #evaluating-for-usability{
+        padding-top: 3rem;
+    }
+
+    #research img{
+        width: 46%;
+    }
+
+
 }
 
 
@@ -3547,6 +3567,10 @@ footer a{
     .topleft img{
         width: 70%;
     }
+
+    .page-centered{
+        padding-bottom: 2rem;
+    }
 }
 @media screen and (max-width: 420px) {
     
@@ -3581,6 +3605,7 @@ footer a{
     .pov-text{
         width: 100%;
     }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -3641,16 +3666,6 @@ footer a{
         width: 15rem;
     }
 
-    .middle-title h3{
-        font-size: 3rem;
-    }
-    
-    .middle-title{
-        width: 100%;
-        border-bottom: 1.5px solid #171515;
-        height: 6rem;
-    }
-
     .competitor-analysis{
         padding-top: 3rem;
     }
@@ -3667,9 +3682,7 @@ footer a{
         gap: 2rem;
     }
 
-    #evaluating-for-usability{
-        padding-top: 3rem;
-    }
+
 }
 
 @media screen and (max-width: 377px) {
