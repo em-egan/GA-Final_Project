@@ -3599,6 +3599,10 @@ footer a{
         width: 100%;
     }
 
+    .topleft img{
+    width: 65%;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
