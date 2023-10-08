@@ -20,6 +20,7 @@ a{
     width: 100%;
 }
 
+
 .project-image-one img{
     width: 100%;
     filter: grayscale(100%);
@@ -32,6 +33,8 @@ a{
     transform: scale(2.5);
 }
 
+
+
 .project-image-two img{
     width: 100%;
     filter: grayscale(100%);
@@ -39,6 +42,8 @@ a{
     transform: scale(1);
 
 }
+
+
 
 .project-image-two img:hover{
     filter: grayscale(0%);
@@ -208,12 +213,13 @@ p{
 }
 
 .text-intro{
-    width: 27rem;
+    width: 27.3rem;
 }
 
 .image-container img{
     width: 23rem;
     padding-left: 2rem;
+    padding-top: 4rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
