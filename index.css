@@ -231,7 +231,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 59rem;
     column-gap: 3rem;
     row-gap: 3rem;
-    padding-top: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
     margin: auto;
     grid-template-areas: 
     "one three"
@@ -574,8 +575,9 @@ footer a{
     }
 
     .projects-grid{
-        gap: 1rem;
+        gap: 1.5rem;
         padding-top: 2rem;
+        padding-bottom: 0rem;
     }
 }
 
