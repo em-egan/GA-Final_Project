@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        (function (m, a, z, e) {
+          var s, t;
+          try {
+            t = m.sessionStorage.getItem('maze-us');
+          } catch (err) {}
+        
+          if (!t) {
+            t = new Date().getTime();
+            try {
+              m.sessionStorage.setItem('maze-us', t);
+            } catch (err) {}
+          }
+        
+          s = a.createElement('script');
+          s.src = z + '?t=' + t + '&apiKey=' + e;
+          s.async = true;
+          a.getElementsByTagName('head')[0].appendChild(s);
+          m.mazeUniversalSnippetApiKey = e;
+        })(window, document, 'https://snippet.maze.co/maze-universal-loader.js', 'e0a92543-d818-43cc-a158-5aecd97d6336');
+        </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL753SVNLF"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -80,7 +101,7 @@
                     <div class="main-content-bottom">
                         <div class="stroke"></div>
                         <div class="main-content-description">
-                            <h2>Crafting Seamless Journeys <br class="br-one"> Through Intuitive User Interfaces
+                            <h2>Crafting Seamless Journeys <br class="br-one"> Through Intuitive User Interfaces.
                             </h2>
                             <p>Experience the world like never before with Wayfarer, where travel comes to life through thoughtful UI design. Tailored for explorers, Wayfarer promises a travel discovery redefined, driven by meticulous attention to user interfaces.</p>
                             <div class="added-space"></div>
