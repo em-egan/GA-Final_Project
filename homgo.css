@@ -2823,11 +2823,11 @@ footer a{
 
 @media screen and (max-width: 1080px) {
 
-    /* nav{
+    nav{
         margin-left:6% ;
         margin-right:6%;
         margin-top: 6%;
-    } */
+    }
 
     .page-centered {
         margin-left: 6%;
@@ -2844,7 +2844,7 @@ footer a{
         width: 43rem;
     }
 
-    nav{
+    .top-part{
         padding: 3.75rem 6% 6.25rem 6%;
     }
 
