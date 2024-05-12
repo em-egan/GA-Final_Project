@@ -128,6 +128,7 @@ h1{
     width: 33rem;
 }
 
+
 h2{    
     color: #171515;
     font-family: Inter;
@@ -178,18 +179,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10% ;
-    margin-top: 3.5rem;  
+    margin-left: 11%;
+    margin-right: 11% ;
+    margin-top: 3.75rem;  
 }
 
 nav a{
     display: inline-block;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
     text-decoration: none;
     color: #171515;
-    font-size: 1.59525rem;
 }
 
 .middle{
@@ -217,7 +217,7 @@ nav a{
 }
 
 .topright a{
-    font-size: 1.9rem; 
+    font-size: 1.375rem; 
     font-weight: 400;
 }
 
@@ -250,25 +250,26 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
     margin: 25px auto;
     text-decoration: none;
 }
 
 .menu-links {
-    padding-top: 7rem;
-    padding-right: 2.5rem;
+    padding-top: 5rem;
+    padding-right: 2%;
     width: auto;
 }
 
 #menu-close {
     position: absolute;
-    top: 4rem;
-    right: 4rem; 
+    top: 4%;
+    right: 7%; 
 }
 
 #menu-close img{
-    width: 1.7rem;
+    width: ;
 }
 
 .main-container{
@@ -2642,6 +2643,36 @@ footer a{
 
 }
 
+@media screen and (max-width: 1080px) {
+
+    nav{
+        margin-left:6% ;
+        margin-right:6%;
+        margin-top: 6%;
+    }
+
+    .page-centered {
+        margin-left: 6%;
+        margin-right: 6%;
+
+    }
+
+    footer{
+        padding: 7.5rem 6%;
+    }
+
+    h1{
+        font-size: 2rem;
+        width: 43rem;
+    }
+
+    .top-part{
+        padding: 3.75rem 6% 6.25rem 6%;
+    }
+
+
+}
+
 @media screen and (max-width: 1050px) {
 
     .f-size{
@@ -2886,18 +2917,12 @@ footer a{
         font-size: 1.7rem; 
     }
 
-    .topleft img{
-        content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/f90284fca1ae97f0799d4c12c26e14bfb71a758a/5%20Logo/Symbol_Logo_Black.svg')
-    }
 
     .topright .hamburger-img {
         display: inline-block;
     }
     .topright a{
         display: none;
-    }
-    .topleft img{
-        width: 90%;
     }
 
     .bottomleft img{
@@ -3095,6 +3120,16 @@ footer a{
     .main-container{
         gap:1.5rem;
     }
+
+    .topleft img{
+        width: 90%;
+    }
+
+    .top-part{
+        padding: 6% 6% 8% 6%;
+        
+    }
+
 
 }
 
@@ -3318,6 +3353,14 @@ footer a{
     }
 }
 
+@media screen and (max-width: 570px) {
+
+    .top-part{
+        gap: 8rem;
+    }
+
+}
+
 @media screen and (max-width: 558px) {
 .main-titles img{
     width: 16rem;
@@ -3531,6 +3574,13 @@ footer a{
     .pov-text{
         width: 100%;
     }
+}
+
+@media screen and (max-width: 415px) {
+
+.topleft img{
+    width: 70%;
+}
 }
 
 @media screen and (max-width: 400px) {
