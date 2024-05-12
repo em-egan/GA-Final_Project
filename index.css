@@ -7,72 +7,34 @@ html {
 
 a{
     cursor: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/1eb127cc827b6e0130e3d0072d58649533f76e18/1%20Cursor/cursor_hover.svg'), auto; 
+    text-decoration: none;
+
 }
 
 ::selection {
     background: #fffb0ce1;
 }
 
-.projects-item{
-    overflow: hidden; 
-    margin: 0 auto;
-    position: relative;
-    width: 100%;
+body{
+    margin: 0;
 }
 
-
-.project-image-one img{
-    width: 100%;
-    filter: grayscale(100%);
-    transition: transform 1.5s, filter 1s ease-in-out;
-    transform: scale(1);
-}
-
-.project-image-one img:hover{
-    filter: grayscale(0%);
-    transform: scale(2.5);
-}
-
-
-
-.project-image-two img{
-    width: 100%;
-    filter: grayscale(100%);
-    transition: transform 1s, filter 1s ease-in-out;
-    transform: scale(1);
-
-}
-
-
-
-.project-image-two img:hover{
-    filter: grayscale(0%);
-    transform: scale(1.4);
-}
-
-.project-image-three img{
-    width: 100%;
-    filter: grayscale(100%);
-    transition: transform 1s, filter 1s ease-in-out;
-}
-
-.project-image-three img:hover{
-    filter: grayscale(0%);
-    transform: scale(1.5) rotate(-10deg);
-}
-
-body {
+.top-part{
     font-family: 'Inter';
     margin: 0px;
+    display: flex;
+    padding: 3.75rem 11% 6.25rem 11%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12.5rem;
+    display: flex;
 }
   
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10% ;
-    margin-top: 3.5rem;  
+    align-self: stretch;
 }
 
 nav a{
@@ -81,29 +43,11 @@ nav a{
     padding-right: 0px;
     text-decoration: none;
     color: #171515;
-    font-size: 1.59525rem;
 }
 
 .topleft a{
     padding: 0;
 }
-
-.middle{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.middle .website{
-    text-align: center;
-    font-size: 1.6rem; 
-} 
-
-.middle .title{
-    text-align: center;
-    font-size: 1.7rem;
-} 
 
 .topright{
     display: flex;
@@ -113,7 +57,7 @@ nav a{
 }
 
 .topright a{
-    font-size: 1.9rem; 
+    font-size: 1.375rem; 
     font-weight: 400;
 }
 
@@ -146,47 +90,38 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
     margin: 25px auto;
     text-decoration: none;
 }
 
 .menu-links {
-    padding-top: 7rem;
-    padding-right: 2.5rem;
+    padding-top: 5rem;
+    padding-right: 2%;
     width: auto;
 }
 
 #menu-close {
     position: absolute;
-    top: 4rem;
-    right: 4rem; 
+    top: 4%;
+    right: 7%; 
 }
 
 #menu-close img{
-    width: 1.7rem;
+    width: ;
 }
 
 main{
     display: flex;
-    justify-content: center;
-    margin: auto;
-    gap: 0;
-}
-
-.main-container{
-    display: flex;
-    padding-top: 6rem ;
-    align-items: center;
-}
-
-.content-container{
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    width: 34.3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    align-self: stretch;
 }
+
+
 
 .main-title{
     display: flex;
@@ -195,119 +130,212 @@ main{
     gap: 1.25rem; 
 }
 
-h4{
-    font-family: Inter;
-    font-size: 3.5rem;
-    font-weight: 450;
-}
-
-h5{
-    font-family: Inter;
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-p{
-    font-family: Inter;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 155%;
-    color: #6A6E77;
-}
-
-.text-intro{
-    width: 27.3rem;
-}
-
-.image-container img{
-    width: 23rem;
-    padding-left: 2rem;
-    padding-top: 4rem;
-}
-
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.projects-grid{
-    display: grid;
-    width: 59rem;
-    column-gap: 3rem;
-    row-gap: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-    margin: auto;
-    grid-template-areas: 
-    "one three"
-    "one  three"
-    "one three"
-    "one  three"
-    "one  three"
-    "two  three"
-    "two  three"
-    "two  none"
-    "two  none"
-    "two  none"
-    ;
-    grid-template-rows: repeat(10,20px);
-    grid-template-columns: 1fr 1fr;
+
+h1{
+    color: var(--Black, #171515);
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.025rem;
+    width: 51.1875rem;
 }
 
-.project-image-one, .project-image-two, .project-image-three {
-    height: 100%;
+h2{
+    color: #9D9D9D;
+    font-family: Inter;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem; /* 129.412% */
+}
+
+h3{
+    color: var(--Text-Text-Secondary, #474747);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h4{
+    color: var(--Black, #171515);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h5{
+    color: var(--Black, #171515);
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; /* 133.333% */
+}
+
+h6{
+    color: #AFAFAF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.11363rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.10025rem;
+    text-transform: uppercase;
+}
+
+.projects-sections{
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    align-self: stretch;
 }
 
-#projectOne{
-    grid-area: one;
+
+.mainsection-title{
+    display: flex;
+    padding-bottom: var(--Spacing-Spacing-Lg, 1rem);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    border-bottom: 1px solid #595959;
 }
 
-#projectTwo{
-    grid-area: two;
+.cards-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.75rem;
+    align-self: stretch;
 }
 
-#projectThree{
-    grid-area: three;
-}
-
-.projects-grid img{
-    object-fit: cover;
+.card-row{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    align-self: stretch;
     width: 100%;
-    vertical-align: top; 
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Spacing-Spacing-Lg, 1rem);
+    align-self: stretch;
+    width: 100%;
+}
+
+.card-img1{
+    background: url(https://github.com/em-egan/GA-Final_Project/blob/main/2%20Project%20images/1amex.png?raw=true);
+}
+
+.card-img2{
+    background: url(https://github.com/em-egan/GA-Final_Project/blob/main/2%20Project%20images/2museum.png?raw=true)
+}
+
+.card-img3{
+    background: url(https://github.com/em-egan/GA-Final_Project/blob/main/2%20Project%20images/3homgo.png?raw=true)
+}
+
+.card-img4{
+    background: url(https://github.com/em-egan/GA-Final_Project/blob/main/2%20Project%20images/4wayfarer.png?raw=true)
+
+}
+
+.card-img5{
+    background: url(<path-to-image>) lightgray -85.276px -52.845px / 164.095% 238.858% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card-img6{
+    background: url(<path-to-image>) lightgray -85.276px -52.845px / 164.095% 238.858% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card-img1,.card-img2,.card-img3,.card-img4,.card-img5,.card-img6{
+    height: 11.9375rem;
+    align-self: stretch;
+    border-radius: 0.25rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 
-.project-button {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Spacing-Spacing-Xs, 0.25rem);
+    align-self: stretch;
 }
 
-.project-name {
-    margin: 0;
-    background: rgb(255, 255, 255);
-    padding: 4% 6% 4% 6%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+.card-button{
+    display: flex;
+    padding: var(--Spacing-Spacing-Sm, 0.5rem) 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 1.25rem;
+    border: 1.4px solid #000;
+    background: #FFF;
 }
+
+.content-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+
+p{
+    color: var(--BLACK, #171515);
+    /* Body/Callout */
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem; /* 137.5% */
+    align-self: stretch;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
 
 footer{
-    height: 25rem;
     display: flex;
+    padding: 7.5rem 11%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 4rem;  
-    background-color: #171515;
+    align-self: stretch;
+    background: #2B2727;
 }
 
-.bottomleft{
-    margin-left: 10%;
-    margin-right: 10% ;
-}
 
 footer a{
     display: block;
@@ -319,153 +347,106 @@ footer a{
 
 .bottomright{
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    gap: 2rem;
-    margin-right: 20%;      
+    gap: var(--Spacing-Spacing-2Xl, 2rem);   
 }
 
 .bottomright a{
-    font-size: 1.9rem; 
-    font-weight: 400;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.375rem;
     font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
 
-.bottomleft img{
-    width: 90%;
-}
-
-
-@media screen and (max-width: 1570px) {
-
-    .middle{
+.br-mobile{
     display: none;
-    }
-    .image-container img{
-        width: 20rem;
-    }
-    .projects-grid{
-        width: 56.5rem;
-    }
-}
-@media screen and (max-width: 1126px) {
-
-    .image-container img{
-        width: 18rem;
-    }
-    .projects-grid{
-        width: 54rem;
-    }
 }
 
-@media screen and (max-width: 1086px) {
+@media screen and (max-width: 1320px) {
 
-    .content-container{
-        width: 25rem;
-        gap: 1rem;
-    }
-
-    .image-container img{
-        width: 16rem;
-    }
-
-    .content-container h4{
-        font-size: 2.5rem;
-        font-weight: 500;
-    }
-
-    .text-intro p{
-        font-size: 0.9rem;
+    h1{
+        font-size: 2.2rem;
         font-style: normal;
-        font-weight: 300;
-        line-height: 155%;
-        color: #6A6E77;
-    }
-
-    .text-intro{
-        width: 20rem;
-    }
-
-    .main-title img{
-        width:75%;
-    }
-
-    .projects-grid{
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.025rem;
         width: 43rem;
     }
 
-    h5{
-        font-size: 1.5rem;
+    p{
+        font-size: 0.9rem;
     }
 
-    .project-button {
-        width: 14%;
-        top: 1rem;
-        right: 1rem;
+    h4{
+        font-size: 1.2rem;
     }
 
     .bottomright a{
-        font-size: 1.7rem; 
-        font-weight: 400;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 1.1rem;
         font-style: normal;
+        font-weight: 300;
         line-height: normal;
     }
 
-    .main-title{
-        gap: 0.7rem ;
+    .bottomright{
+        gap: var(--Spacing-Spacing-2Xl, 1rem);   
     }
+
+    .main-container{
+        gap: var(--Spacing-Spacing-Sm, 0.5rem);
+    }
+
+    
+
 }
 
-@media screen and (max-width: 859px) {
+@media screen and (max-width: 1080px) {
 
-    .image-container img{
-        width: 12rem;
-    }
-
-    .projects-grid{
-        width: 39rem;
-    }
-
-    h5{
-        font-size: 1.3rem;
-    }
-
-    .project-button {
-    width: 12%;
-    top: 1rem;
-    right: 1rem;
+    .top-part{
+        padding: 3.75rem 6% 6.25rem 6%;
     }
 
     footer{
-        height: 20rem;
+        padding: 7.5rem 6%;
     }
+
+    h1{
+        font-size: 2rem;
+        width: 43rem;
+    }
+
+
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 892px) {
 
-    .content-container{
-    justify-content: left;
+    .br-mu, .br-homgo, .br-amex, .br-way, .br-on, .br-bookl{
+        display: none;
     }
 
-    .text-intro p{
-        font-size: 0.9rem;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 155%;
-        color: #6A6E77;
+    h1{
+        font-size: 1.8rem;
+        width: 40rem;
     }
 
-    .text-intro{
-        width: 20rem;
+    h2{
+        font-weight: 500;
     }
 
-    .topright a{
-        font-size: 1.7rem; 
-    }
+}
 
-    .topleft img{
-        content: url('https://raw.githubusercontent.com/em-egan/GA-Final_Project/f90284fca1ae97f0799d4c12c26e14bfb71a758a/5%20Logo/Symbol_Logo_Black.svg')
+@media screen and (max-width: 740px) {
+    .card-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+    align-self: stretch;
     }
 
     .topright .hamburger-img {
@@ -479,223 +460,167 @@ footer a{
     }
 
     .bottomleft img{
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 779px) {
-
-    .image-container img{
-        width: 10rem;
-    }
-
-    .projects-grid{
-        width: 37rem;
-    }
-
-}
-
-@media screen and (max-width: 740px) {
-
-    .main-container{
-        display: flex;
-        flex-direction: column;
-        padding-top: 5rem ;
-
-        align-items: flex-start;
-        gap: 2.5rem;
-        margin-left: 10%;
-        
-    }
-
-    .main-container .image-container{
-        display: none;
-    }
-
-    .image-container img{
-        width: 14rem;
-        padding: 0px
-    }
-    
-    .projects-grid{
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        margin-left: 10%;
-        margin-right: 10%;
-        gap: 3rem;
-        padding-top: 3rem;
-    }
-    .projects-grid img{
-        resize: both;
-    }
-
-    .text-intro{
-        width: fit-content;
-    }
-
-    h5{
-        font-size: 2rem;
-    }
-
-}
-
-
-@media screen and (max-width: 540px) {
-
-    .content-container{
-        width: 20rem ;
-        gap: 1rem;
-    }
-
-    .content-container h4{
-        font-size: 2rem;
-        font-weight: 500;
-    }
-
-    .main-title{
-        gap: 0.7rem ;
-    }
-
-    .main-title img{
-        width:70%;
-    }
-
-    h5{
-        font-size: 1.5rem;
-    }
-
-    .project-button {
-        width: 14%;
-        top: 1.5rem;
-        right: 1.5rem;
-    }
-
-    .bottomright a{
-        font-size: 1.4rem; 
-        font-weight: 400;
-        font-style: normal;
-        line-height: normal;
-    }
-
-    .projects-grid{
-        gap: 1.5rem;
-        padding-top: 2rem;
-        padding-bottom: 0rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-
-    .content-container{
-        width: 18rem ;
-    }
-
-    .content-container h4{
-        font-size: 1.7rem;
-        font-weight: 500;
-    }
-
-    .topleft img{
         width: 80%;
     }
 
-    footer{
-        height: 15rem;
+    h1{
+        font-size: 1.6rem;
+        width: 30rem;
     }
 
-    .bottomright{
+    .card-row{
+    gap: 2rem;
+    }
+
+    .cards-section{
+        gap: 2rem;
+    }
+    
+    .card{
+    gap: 0.6rem;
+    }
+
+    .projects-sections{
         gap: 1.6rem;
     }
 
-    .project-button {
-        top: 0.8rem;
-        right: 0.8rem;
+    h3{
+        font-size: 1.2rem;
     }
+    
+    .top-part{
+        padding: 6% 6% 8% 6%;
+        
+    }
+
+    footer{
+        padding: 6rem 6%;
+    }
+
 }
 
-@media screen and (max-width: 443px) {
+@media screen and (max-width: 570px) {
+
+
+    h1{
+        font-size: 1.4rem;
+        width: 26rem;
+        font-weight: 600;
+    }
+
+    .top-part{
+        gap: 8rem;
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
+
+    .projects-sections{
+        gap: 1.6rem;
+    }
+
+    h2{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    footer{
+        padding: 4rem 6%;
+    }
+
+    .bottomright{
+        display: flex;
+        padding-right: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--Spacing-Spacing-Xs, 0.25rem);
+    }
+    
+    .bottomright a{
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+
+
+}
+
+@media screen and (max-width: 510px) {
+
+
+.main-container{
+    display: flex;
+    gap: var(--Spacing-Spacing-Sm, 0.5rem);
+}
+
+.br-one{
+    display: none;
+}
+
+.br-mobile{
+    display: block !important;
+}
+
+.projects-sections{
+    gap: 1.3rem;
+}
+
+
+
+}
+
+@media screen and (max-width: 415px) {
+
+    h1{
+        font-size: 1.2rem;
+        width: 22rem;
+        font-weight: 600;
+    }
+
+    h2{
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.375rem; /* 129.412% */
+    }
 
     .topleft img{
         width: 70%;
     }
-    .main-title{
-        gap: 0.8rem; 
-    }
 
-    .main-container .image-container{
-        display: none;
-    }
+
+
 }
 
-@media screen and (max-width: 420px) {
-    
-    .topleft img{
-    width: 65%;
+@media screen and (max-width: 330px) {
+    h1{
+        font-size: 1rem;
+        width: 18rem;
+        font-weight: 600;
     }
 
-    .text-intro p{
-        font-size: 0.9rem;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 155%;
-        color: #6A6E77;
-    }
-
-    .text-intro{
-        width: 15.5rem;
-    }
-
-    .main-title img{
-        width:75%;
+    h2{
+        font-size: 0.8rem;
     }
 
     .main-container{
-        padding-top: 5rem ;
+        display: flex;
+        gap: var(--Spacing-Spacing-Sm, 0.3rem);
     }
 
-    h5{
-        font-size: 1.4rem;
-    }
-    
-    h5{
-        font-size: 1.45rem;
-    }
-    
-    .projects-grid{
+    .projects-sections{
         gap: 1rem;
-        padding-top: 1.5rem;
     }
 
-    .project-button {
-        width: 12%;
-        top: 1rem;
-        right: 1rem;
+    h3{
+        font-size: 1rem;
     }
-}
 
-@media screen and (max-width: 385px) {
-
-    .main-container{
-        padding-top: 4rem ;
-    }
-    
-    nav {
-        margin-top: 3rem;  
+    .top-part{
+        gap: 5rem;
     }
 }
 
-@media screen and (max-width: 370px) {
-
-    h5{
-        font-size: 1.3rem;
-    }
-}
-
-@media screen and (max-width: 346px) {
-
-    .content-container h4{
-        font-size: 1.7rem;
-        font-weight: 500;
-    }
-}
